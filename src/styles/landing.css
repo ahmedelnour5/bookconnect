@@ -1,0 +1,29 @@
+.Landing {
+  height: 80vh;
+}
+
+.Main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heroText > h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.heroText > span {
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.heroWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroWrapper > img {
+  max-height: 580px;
+  min-height: 300px;
+  width: 100%;
+}
