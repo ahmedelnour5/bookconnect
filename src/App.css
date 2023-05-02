@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
 
 *,
 *::before,
@@ -9,9 +9,13 @@
 }
 
 .App {
-  padding: 20px;
-  grid-gap: 40px;
-  color: white;
+  font-family: 'Roboto';
+  font-size: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 h1 {

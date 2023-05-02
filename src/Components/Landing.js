@@ -9,13 +9,11 @@ function Landing() {
       <Header />
       <section className="Main">
         <div className="heroText">
-          <h1>Readfluence - </h1>
-          <span>
-            discover what the most influential people in the world are reading
+          <h1 className="landingHeader">Readfluence </h1>
+          <span className="landingTxt">
+            discover what the most influential people <br></br> in the world are
+            reading.
           </span>
-        </div>
-        <div className="heroWrapper">
-          <img src={bookCase}></img>
         </div>
       </section>
     </div>

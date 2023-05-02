@@ -1,20 +1,30 @@
 .Landing {
-  height: 80vh;
+  flex-grow: 1;
+  height: 95vh;
+  width: 100%;
+  background-color: #d41929;
+  color: white;
 }
 
 .Main {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  height: 80%;
+  padding: 30px;
 }
 .heroText > h1 {
-  font-size: 2.5rem;
+  font-size: 55px;
   font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
 }
 
 .heroText > span {
+  font-size: 30px;
   font-family: inherit;
   font-weight: 500;
+  line-height: 1.3;
 }
 
 .heroWrapper {
@@ -23,7 +33,7 @@
 }
 
 .heroWrapper > img {
-  max-height: 580px;
+  max-height: 550px;
   min-height: 300px;
   width: 100%;
 }
