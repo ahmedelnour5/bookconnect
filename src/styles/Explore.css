@@ -1,0 +1,29 @@
+.gridContainer {
+  background-color: #f5f5f5;
+  padding: 120px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+}
+
+.catHeadContainer {
+  display: flex;
+  margin-bottom: 60px;
+}
+.categoryHead {
+  color: #d41929;
+  font-size: 1.6rem;
+}
+
+.catCard {
+  box-sizing: border-box;
+  font-size: 1.25rem;
+}
+.catCard:hover {
+  cursor: pointer;
+  border: 2px solid #d41929;
+}
