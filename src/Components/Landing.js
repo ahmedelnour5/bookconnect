@@ -1,5 +1,4 @@
 import React from 'react';
-import bookCase from './bookCase.jpg';
 import '../styles/landing.css';
 import Header from './Header';
 

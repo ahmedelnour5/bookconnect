@@ -19,6 +19,7 @@ function Login() {
         elevation={24}
       >
         <Logo />
+
         <div className="form">
           <input
             type="text"
@@ -27,7 +28,7 @@ function Login() {
             placeholder="Enter your email"
           ></input>
           <input
-            type=""
+            type="password"
             name="password"
             id="password"
             placeholder="password"

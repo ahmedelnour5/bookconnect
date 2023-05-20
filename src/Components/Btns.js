@@ -39,6 +39,8 @@ function Buttons() {
           backgroundColor: theme.palette.secondary.main,
           marginLeft: '10px',
         }}
+        component={Link}
+        to="/Signup"
       >
         Sign up
       </Button>

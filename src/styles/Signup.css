@@ -1,0 +1,41 @@
+.signUpHeadContainer {
+  padding: 0 10%;
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.signUpHeadContainer > .Logo {
+  position: static;
+  color: rgb(212, 25, 41);
+  font-size: 2rem;
+}
+
+.signUpHead {
+  margin-top: 5px;
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+.signUp-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 10%;
+}
+
+.signUp-form input {
+  padding: 13px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin: 15px 0;
+  font-family: inherit;
+  width: 100%;
+}
+
+.signUp {
+  gap: 15px;
+  padding: 20px;
+}

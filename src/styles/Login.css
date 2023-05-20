@@ -18,7 +18,7 @@
 }
 
 .form input {
-  padding: 10px;
+  padding: 13px;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
   margin-bottom: 15px;
@@ -26,10 +26,11 @@
   width: 100%;
 }
 
-.Logo {
+form > .Logo {
   color: #d41929;
   position: relative;
-  bottom: 9%;
+  bottom: 7%;
   font-size: 2rem;
   font-weight: 600;
+  text-align: center;
 }
