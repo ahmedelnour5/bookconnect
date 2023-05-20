@@ -1,44 +1,42 @@
 import React from 'react';
+import Logo from './Logo';
 import Button from '@mui/material/Button';
-import { createTheme } from '@mui/material/styles';
+import '../styles/Login.css';
+import Paper from '@mui/material/Paper';
 
 function Login() {
-  const theme = createTheme({
-    palette: {
-      primary: {
-        light: '#dc4753',
-        main: '#d41929',
-        dark: '#94111c',
-        contrastText: '#fff',
-      },
-      secondary: {
-        light: '#ffffff',
-        main: '#000',
-        dark: '#b2b2b2',
-        contrastText: '#fff',
-      },
-    },
-  });
   return (
-    <div className="login">
-      <Button
-        variant="outlined"
+    <div className="container">
+      <Paper
+        component="form"
         style={{
-          color: theme.palette.secondary.light,
-          borderColor: theme.palette.secondary.light,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          height: '400px',
+          width: '500px',
         }}
+        elevation={24}
       >
-        Sign in
-      </Button>
-      <Button
-        variant="contained"
-        style={{
-          backgroundColor: theme.palette.secondary.main,
-          marginLeft: '10px',
-        }}
-      >
-        Sign up
-      </Button>
+        <Logo />
+        <div className="form">
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          ></input>
+          <input
+            type=""
+            name="password"
+            id="password"
+            placeholder="password"
+          ></input>
+          <Button variant="contained" fullWidth="true">
+            Log-in
+          </Button>
+        </div>
+      </Paper>
     </div>
   );
 }
