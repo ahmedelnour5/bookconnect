@@ -1,0 +1,67 @@
+.header {
+  border-bottom: 1px solid rgb(236, 239, 241);
+}
+
+.header-container {
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*****************************Logo*************************************/
+
+.Logo {
+  color: var(--my_blue);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/*****************************End Logo*************************************/
+
+/*****************************Navbar*************************************/
+ul {
+  list-style: none;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 0.5;
+}
+
+.navLinks {
+  margin-left: 20px;
+}
+
+/*****************************END Navbar*************************************/
+
+/*****************************AuthBtns*************************************/
+.sign-Up-Btn,
+.sign-In-Btn {
+  margin-left: 20px;
+}
+
+.MuiButtonBase-root {
+  font-family: inherit;
+  text-transform: none;
+  font-size: inherit;
+  letter-spacing: inherit;
+}
+
+.sign-In-Btn:hover {
+  background-color: var(--my_blue);
+  color: #ffffff !important;
+}
+
+.sign-Up-Btn {
+  background-color: var(--my_blue) !important;
+}
+
+.sign-In-Btn {
+  color: inherit !important;
+}
+/*****************************END AuthBtns*************************************/
