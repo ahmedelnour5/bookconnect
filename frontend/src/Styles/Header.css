@@ -30,38 +30,45 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-grow: 0.5;
+  flex-grow: 0.3;
 }
 
-.navLinks {
-  margin-left: 20px;
+.navList a {
+  margin: 0 25px;
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: 0.01rem;
+}
+
+.navList a:hover {
+  border-bottom: 2px solid var(--my_blue);
 }
 
 /*****************************END Navbar*************************************/
 
 /*****************************AuthBtns*************************************/
-.sign-Up-Btn,
-.sign-In-Btn {
+.authBtnGroup > .sign-Up-Btn,
+.authBtnGroup > .sign-In-Btn {
   margin-left: 20px;
 }
 
-.MuiButtonBase-root {
+.authBtnGroup > .MuiButtonBase-root {
   font-family: inherit;
+  font-size: 0.9em;
   text-transform: none;
-  font-size: inherit;
   letter-spacing: inherit;
 }
 
-.sign-In-Btn:hover {
+.authBtnGroup > .sign-In-Btn:hover {
   background-color: var(--my_blue);
   color: #ffffff !important;
 }
 
-.sign-Up-Btn {
+.authBtnGroup > .sign-Up-Btn {
   background-color: var(--my_blue) !important;
 }
 
-.sign-In-Btn {
+.authBtnGroup > .sign-In-Btn {
   color: inherit !important;
 }
 /*****************************END AuthBtns*************************************/
