@@ -1,0 +1,72 @@
+/**Register**/
+.register-container {
+  max-width: 1540px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/**End Register**/
+
+/**RegisterNav**/
+.registerNav {
+  border-bottom: 1px solid rgb(236, 239, 241);
+  margin-bottom: 40px;
+}
+
+.registerNav-container {
+  max-width: 1540px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.registerNav-right-container {
+  display: flex;
+  align-items: center;
+}
+.registerNav-right-container span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.MuiButtonBase-root {
+  text-transform: none;
+  border: 1px solid var(--my_black);
+  font-family: inherit;
+  color: inherit;
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+/**End RegisterNav**/
+
+/**RegisterHeader**/
+.register-heading {
+  margin-bottom: 25px;
+}
+/**End RegisterHeader**/
+
+/**RegisterForm**/
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form input {
+  margin: 15px 0;
+  padding: 12px;
+  font-family: inherit;
+  border-radius: 0.9rem;
+}
+
+.submitBtn {
+  margin: 12px 0 !important;
+  background-color: var(--my_blue);
+  font-family: inherit;
+
+  color: #fff;
+}
