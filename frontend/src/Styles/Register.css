@@ -1,4 +1,10 @@
 /**Register**/
+
+.Register {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
 .register-container {
   max-width: 1540px;
   margin: 0 auto;
@@ -32,7 +38,7 @@
   font-weight: 600;
 }
 
-.MuiButtonBase-root {
+.registerNav-right-container .MuiButtonBase-root {
   text-transform: none;
   border: 1px solid var(--my_black);
   font-family: inherit;
@@ -50,23 +56,45 @@
 /**End RegisterHeader**/
 
 /**RegisterForm**/
+
+.form-container {
+  padding: 30px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 350px;
+}
+
+.form label {
+  font-weight: 600;
+  letter-spacing: 0.01rem;
 }
 
 .form input {
   margin: 15px 0;
-  padding: 12px;
+  padding: 16px;
   font-family: inherit;
   border-radius: 0.9rem;
+  border-color: rgba(91, 97, 110, 0.68);
+  background-color: #fff;
 }
 
-.submitBtn {
+input:-internal-autofill-selected {
+  background-color: #fff !important;
+}
+.form input:focus {
+  border-color: var(--my_blue);
+}
+
+.form .submitBtn {
   margin: 12px 0 !important;
   background-color: var(--my_blue);
   font-family: inherit;
-
+  text-transform: none !important;
   color: #fff;
+  padding: 12px;
+  border-radius: 1rem;
+  font-size: 0.9em;
 }
