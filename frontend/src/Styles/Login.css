@@ -1,0 +1,19 @@
+.container {
+  max-width: 1540px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container h1 {
+  margin-bottom: 30px;
+}
+
+.form-container h3 {
+  font-weight: 500;
+  padding: 0;
+  margin: 20px 0;
+}

@@ -5,13 +5,7 @@
   height: 100vh;
   grid-template-rows: auto 1fr auto;
 }
-.register-container {
-  max-width: 1540px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 /**End Register**/
 
 /**RegisterNav**/
@@ -52,6 +46,8 @@
 /**RegisterHeader**/
 .register-heading {
   margin-bottom: 25px;
+  font-family: inherit;
+  font-weight: 500;
 }
 /**End RegisterHeader**/
 

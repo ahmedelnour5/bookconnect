@@ -1,27 +1,16 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import Logo from '../Components/Logo';
-import Button from '@mui/material/Button';
-import { useNavigate } from 'react-router-dom';
-import '../Styles/Register.css';
+import Input from '../Components/Input';
 import { registerUser } from '../features/Auth';
+import '../Styles/Register.css';
 
 export const RegisterHeader = () => {
-  return <h2 className="register-heading">Welcome to Readfluence</h2>;
+  return <h1 className="register-heading">Create an account </h1>;
 };
 
-export const Input = ({ type, placeholder, id, name, value, onChange }) => {
-  return (
-    <input
-      type={type}
-      placeholder={placeholder}
-      id={id}
-      name={name}
-      value={value}
-      onChange={onChange}
-    ></input>
-  );
-};
 export const RegisterForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -55,8 +44,9 @@ export const RegisterForm = () => {
   };
 
   return (
-    <Paper elevation={5} className="form-container">
-      <form className="form">
+    <Paper elevation={3} className="form-container">
+      <RegisterHeader />
+      <form className="form" onSubmit={handleSubmit}>
         <label>Name:</label>
         <Input
           type="text"
@@ -131,8 +121,7 @@ const Register = () => {
   return (
     <div className="Register">
       <RegisterNav />
-      <div className="register-container">
-        <RegisterHeader />
+      <div className="container">
         <RegisterForm />
       </div>
     </div>

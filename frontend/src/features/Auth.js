@@ -1,7 +1,7 @@
 const API_URL = 'http://localhost:8080/api/users';
 
 //register user
-const registerUser = async (userData) => {
+export const registerUser = async (userData) => {
   const response = axios.post(API_URL, userData);
 
   if (response.data) {
