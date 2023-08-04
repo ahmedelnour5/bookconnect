@@ -2,7 +2,7 @@ import React from 'react';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import PeopleIcon from '@mui/icons-material/People';
-import DesignServicesIcon from '@mui/icons-material/Design';
+import DesignServicesIcon from '@mui/icons-material/DesignServices';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
@@ -13,6 +13,7 @@ import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
 import ScienceIcon from '@mui/icons-material/Science';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import CodeIcon from '@mui/icons-material/Code';
+import '../Styles/Books.css';
 
 const Category = ({ Icon, title }) => {
   return (
@@ -22,7 +23,6 @@ const Category = ({ Icon, title }) => {
     </div>
   );
 };
-
 
 const BooksNav = () => {
   return (

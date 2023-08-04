@@ -3,3 +3,32 @@
   height: 100vh;
   grid-template-rows: auto 1fr auto;
 }
+
+.books-container {
+  max-width: 1540px;
+  margin: 0 auto;
+  display: flex;
+}
+/**BooksGrid**/
+.gridContainer {
+  display: grid;
+  grid-template-columns: minmax(auto, 320px) 1fr;
+}
+/**EndBooksGrid**/
+/**BooksNav**/
+.booksNav {
+  display: flex;
+  flex-direction: column;
+}
+.category-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.category-wrapper .category-title {
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+/**EndBooksNav**/
