@@ -2,6 +2,7 @@
   display: grid;
   height: 100vh;
   grid-template-rows: auto 1fr auto;
+  gap: 30px;
 }
 
 .books-container {
@@ -13,8 +14,27 @@
 .gridContainer {
   display: grid;
   grid-template-columns: minmax(auto, 320px) 1fr;
+  column-gap: 4vw;
+  justify-items: center;
+  align-items: start;
 }
 /**EndBooksGrid**/
+
+/**BookList**/
+.BookList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  column-gap: 5vw;
+  row-gap: 60px;
+}
+
+.pagination {
+  grid-column: 1 / span 4;
+  font-size: 2rem;
+}
+/**EndBookList**/
+
 /**BooksNav**/
 .booksNav {
   display: flex;
@@ -32,3 +52,52 @@
 }
 
 /**EndBooksNav**/
+
+/**Book**/
+
+.book {
+  width: 100%;
+  height: 100%;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+
+.book:hover > .bookCover > img {
+  transform: scale(1.025);
+}
+
+.bookDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.book-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.book-author {
+  margin-top: 0.25rem;
+  font-size: 1rem;
+}
+
+.bookCover {
+  margin-bottom: 0.5rem;
+}
+
+.bookCover .coverImg {
+  padding: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.book .bookCover > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  transition: 200ms transform ease-in-out;
+}
+/**EndBook**/ ;
