@@ -12,17 +12,24 @@ const getBooks = asyncHandler(async (req, res) => {
 });
 
 const getBooksByCat = asyncHandler(async (req, res) => {
-  const category = req.params.category;
+  const requestedCategory = req.params.category;
 
-  const books = await Book.find(
-    { category: category },
-    'title coverImage'
-  ).populate({
-    path: 'author',
-    select: 'name -_id',
-  });
+  try {
+    const books = await Book.find(
+      { category: requestedCategory },
+      'title coverImage'
+    ).populate({
+      path: 'author',
+      select: 'name -_id',
+    });
 
-  res.status(200).json(books);
+    if (books) {
+      return res.status(200).json(books);
+    }
+  } catch (error) {
+    console.log(error);
+    return res.status(400);
+  }
 });
 
 module.exports = { getBooks, getBooksByCat };

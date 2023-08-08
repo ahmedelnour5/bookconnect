@@ -51,6 +51,15 @@
   font-size: 1rem;
 }
 
+.category-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-wrapper > a:active {
+  color: var(--my_blue);
+}
+
 /**EndBooksNav**/
 
 /**Book**/
