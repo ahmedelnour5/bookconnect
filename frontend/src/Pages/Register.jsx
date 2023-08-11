@@ -38,8 +38,6 @@ export const RegisterForm = () => {
         email,
         password,
       };
-
-      await Auth.registerUser(userData);
     }
   };
 

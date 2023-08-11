@@ -32,8 +32,6 @@ const LogInForm = () => {
       email,
       password,
     };
-
-    await Auth.loginUser(userData);
   };
 
   return (
