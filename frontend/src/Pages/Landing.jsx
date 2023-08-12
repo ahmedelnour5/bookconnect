@@ -2,16 +2,10 @@ import React from 'react';
 import Header from '../Components/Header';
 import '../Styles/Landing.css';
 import IMAGES from '../Images/Images';
+import Image from '../Components/Image';
+import FeatureSections from '../Components/FeatureSections';
 
 const Main = () => {
-  const Image = ({ src }) => {
-    return (
-      <div className="img-wrapper">
-        <img src={src} />
-      </div>
-    );
-  };
-
   const Text = () => {
     return (
       <div className="copy">
@@ -26,9 +20,10 @@ const Main = () => {
   return (
     <main className="main-container">
       <div className="content">
-        <Image src={IMAGES.bookImg} />
+        <Image src={IMAGES.peopleImg} />
         <Text />
       </div>
+      <FeatureSections />
     </main>
   );
 };
