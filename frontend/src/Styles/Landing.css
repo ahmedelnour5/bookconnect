@@ -1,5 +1,49 @@
 .Landing {
   display: grid;
   grid-template-rows: auto 1fr auto;
+  gap: 30px;
   height: 100vh;
+  padding: 30px;
+}
+
+.main-container {
+  max-width: 1540px;
+  margin: 0 auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 9vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy {
+  max-width: 75%;
+}
+.copy-text {
+  width: 100%;
+  line-height: 1.4;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: inherit;
+  margin: 0;
+  text-align: start;
+}
+.copy > .copy-header {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+}
+.img-wrapper {
+  max-width: 100%;
+}
+
+.img-wrapper > img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
