@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <Logo />
+        <Logo to={'/landing'} />
         <Navbar />
         <AuthBtns />
       </div>

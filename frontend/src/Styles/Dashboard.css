@@ -1,0 +1,16 @@
+.dashboard {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 30px;
+  height: 100vh;
+}
+
+.profile-ctrls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.username {
+  margin-left: 0.4rem;
+}

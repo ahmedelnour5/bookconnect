@@ -4,6 +4,7 @@ import Header from '../Components/Header';
 import BooksNav from '../Components/BooksNav';
 import BookList from '../Components/BookList';
 import '../Styles/Books.css';
+import UserHeader from '../Components/userHeader';
 
 const BooksGrid = () => {
   return (
@@ -15,9 +16,13 @@ const BooksGrid = () => {
 };
 
 const Books = () => {
+  const storedUser = localStorage.getItem('user');
+  const user = storedUser ? JSON.parse(storedUser) : null;
+  const name = user ? user.name : '';
+
   return (
     <div className="Books">
-      <Header />
+      {user ? <UserHeader name={name} /> : <Header />}
       <div className="books-container">
         <BooksGrid />
       </div>

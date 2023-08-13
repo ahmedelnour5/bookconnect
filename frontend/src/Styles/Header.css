@@ -13,6 +13,12 @@
 
 /*****************************Logo*************************************/
 
+.header-container > a {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 700;
+}
+
 .Logo {
   color: var(--my_blue);
   font-size: 2rem;

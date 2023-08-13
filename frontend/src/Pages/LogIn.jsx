@@ -3,14 +3,16 @@ import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import Logo from '../Components/Logo';
 import Input from '../Components/Input';
-import loginUser from '../features/Auth';
+import Auth from '../features/Auth';
 import '../Styles/Login.css';
+import { useNavigate } from 'react-router-dom';
 
 const LoginHeader = () => {
   return <h3>Sign in to Readfluence</h3>;
 };
 
 const LogInForm = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -32,6 +34,11 @@ const LogInForm = () => {
       email,
       password,
     };
+
+    const response = await Auth.loginUser(userData);
+    if (response) {
+      navigate('/dashboard');
+    }
   };
 
   return (
