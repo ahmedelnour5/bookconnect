@@ -1,13 +1,13 @@
 import React from 'react';
-import People from '@mui/icons-material/People';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import Logo from './Logo';
 import Navbar from './Navbar';
-import '../Styles/dashboard.css';
+import '../../Styles/Dashboard.css';
 
 const ProfileCtrls = ({ name }) => {
   return (
     <div className="profile-ctrls">
-      <People />
+      <AccountBoxIcon />
       <span className="username">{name}</span>
     </div>
   );

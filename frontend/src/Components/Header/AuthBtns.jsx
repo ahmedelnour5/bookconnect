@@ -1,7 +1,7 @@
 import React from 'react';
-import Button from '@mui/material/Button';
-import '../Styles/Header.css';
 import { useNavigate } from 'react-router-dom';
+import Button from '@mui/material/Button';
+import '../../Styles/Header.css';
 
 const AuthBtns = () => {
   const navigate = useNavigate();

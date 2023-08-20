@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import Paper from '@mui/material/Paper';
-import Button from '@mui/material/Button';
-import Logo from '../Components/Logo';
+import { useNavigate } from 'react-router-dom';
+import { Paper, Button } from '@mui/material';
+import Logo from '../Components/Header/Logo';
 import Input from '../Components/Input';
 import Auth from '../features/Auth';
 import '../Styles/Login.css';
-import { useNavigate } from 'react-router-dom';
 
 const LoginHeader = () => {
   return <h3>Sign in to Readfluence</h3>;

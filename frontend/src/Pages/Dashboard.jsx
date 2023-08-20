@@ -1,5 +1,5 @@
 import React from 'react';
-import UserHeader from '../Components/userHeader';
+import UserHeader from '../Components/Header/userHeader';
 
 const Dashboard = () => {
   return (

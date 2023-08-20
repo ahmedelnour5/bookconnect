@@ -56,6 +56,11 @@
   color: inherit;
 }
 
+.category-wrapper--active {
+  background-color: var(--my_blue);
+  color: white;
+}
+
 /**EndBooksNav**/
 
 /**Book**/
@@ -67,7 +72,7 @@
   border-radius: 0.25rem;
 }
 
-.book:hover > .bookCover > img {
+.bookCover:hover > img {
   transform: scale(1.025);
 }
 
@@ -88,6 +93,7 @@
 }
 
 .bookCover {
+  position: relative;
   margin-bottom: 0.5rem;
 }
 
@@ -104,4 +110,18 @@
   max-height: 350px;
   transition: 200ms transform ease-in-out;
 }
+
+.modalBtn {
+  color: var(--my_blue) !important;
+  font-family: inherit !important;
+  border-color: var(--my_blue) !important;
+}
+
+.modalImg {
+  display: block;
+  height: auto;
+  max-height: 170px;
+  margin-bottom: 1rem;
+}
+
 /**EndBook**/

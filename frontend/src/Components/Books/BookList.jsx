@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Pagination from '@mui/material/Pagination';
-import useBooks from '../Hooks/useBooks';
-import Book from '../Components/Book';
+import useBooks from '../../Hooks/useBooks';
+import Book from './Book';
 
 const BookList = () => {
   const [currentPage, setCurrentPage] = useState(1);

@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './Logo';
 import Navbar from './Navbar';
 import AuthBtns from './AuthBtns';
-import '../Styles/Header.css';
+import '../../Styles/Header.css';
 
 const Header = () => {
   return (

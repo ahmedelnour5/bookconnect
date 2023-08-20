@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import AddToList from './AddToList';
 
 const BookCover = ({ coverImg }) => {
   return (
@@ -22,6 +23,7 @@ const Book = ({ book }) => {
     <div className="book">
       <BookCover coverImg={book.coverImage} />
       <BookDetails title={book.title} author={book.author.name} />
+      <AddToList coverImg={book.coverImage} book={book._id} />
     </div>
   );
 };

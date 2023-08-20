@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import Header from '../Components/Header';
-import BooksNav from '../Components/BooksNav';
-import BookList from '../Components/BookList';
+import React from 'react';
+import Header from '../Components/Header/Header';
+import UserHeader from '../Components/Header/userHeader';
+import BooksNav from '../Components/Books/BooksNav';
+import BookList from '../Components/Books/BookList';
+
 import '../Styles/Books.css';
-import UserHeader from '../Components/userHeader';
 
 const BooksGrid = () => {
   return (

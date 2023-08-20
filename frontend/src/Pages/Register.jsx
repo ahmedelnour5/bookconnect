@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Button from '@mui/material/Button';
-import Paper from '@mui/material/Paper';
-import Logo from '../Components/Logo';
+import { Button, Paper } from '@mui/material';
+import Logo from '../Components/Header/Logo';
 import Input from '../Components/Input';
-import { registerUser } from '../features/Auth';
+import Auth from '../features/Auth';
 import '../Styles/Register.css';
 
 export const RegisterHeader = () => {
@@ -38,6 +37,11 @@ export const RegisterForm = () => {
         email,
         password,
       };
+
+      const response = await Auth.registerUser(userData);
+      if (response) {
+        navigate('/dashboard');
+      }
     }
   };
 
