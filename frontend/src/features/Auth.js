@@ -28,10 +28,15 @@ const logout = async (userData) => {
   localStorage.removeItem('user');
 };
 
+const getUser = () => {
+  return JSON.parse(localStorage.getItem('user'));
+};
+
 const Auth = {
   registerUser,
   loginUser,
   logout,
+  getUser,
 };
 
 export default Auth;

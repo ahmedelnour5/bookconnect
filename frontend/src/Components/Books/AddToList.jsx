@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import IconButton from '@mui/material/IconButton';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import Auth from '../../features/Auth';
 import ListModal from './Modal';
 
 const AddToList = ({ coverImg, book }) => {
@@ -11,8 +12,7 @@ const AddToList = ({ coverImg, book }) => {
   };
 
   const API_URL = 'http://localhost:8080/api/userLists';
-  const user = JSON.parse(localStorage.getItem('user'));
-  const userID = user._id;
+  const user = Auth.getUser();
 
   const [open, setOpen] = useState(false);
 
@@ -23,18 +23,19 @@ const AddToList = ({ coverImg, book }) => {
   };
 
   const handleClose = () => setOpen(false);
+  const handleBtnClose = () => setOpen(false);
 
-  const handleBtnClose = (e) => {
-    console.log(e);
-    console.log('close clicked!');
-    setOpen(false);
-  };
-
-  const handleClick = async (selectedList) => {
+  const handleClick = async (selectedList, user) => {
     handleClose();
+
     try {
-      const listData = { userID, book, selectedList };
-      const { data } = await axios.post(API_URL, listData);
+      const listData = { book, selectedList };
+      const config = {
+        headers: {
+          Authorization: 'Bearer ' + user.token,
+        },
+      };
+      const { data } = await axios.post(API_URL, listData, config);
       if (data) {
         console.log(data);
       }

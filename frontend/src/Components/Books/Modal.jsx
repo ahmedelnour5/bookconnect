@@ -40,7 +40,7 @@ const ListModal = ({
           <CloseIcon />
         </IconButton>
         <img className="modalImg" src={coverImg}></img>
-        <ButtonGroup orientation="vertical" variant="text">
+        <ButtonGroup orientation="vertical" variant="text" size="large">
           <Button
             className="modalBtn"
             onClick={() => handleButtonClick('Read')}
