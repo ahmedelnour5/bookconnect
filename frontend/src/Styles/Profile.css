@@ -1,0 +1,26 @@
+.Profile {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.profileContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profileCard {
+  width: 100%;
+  border: 1px solid rgb(202, 209, 214);
+  padding: 40px;
+}
+
+.followInfo {
+  display: flex;
+  gap: 10px;
+}
+
+.bio {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

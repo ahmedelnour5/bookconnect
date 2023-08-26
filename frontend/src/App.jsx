@@ -5,6 +5,7 @@ import Register from './Pages/Register';
 import LogIn from './Pages/LogIn';
 import Books from './Pages/Books';
 import Dashboard from './Pages/Dashboard';
+import Profile from './Pages/Profile';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/categories/:category" element={<Books />} />
       <Route path="/books" element={<Books />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   );
 }

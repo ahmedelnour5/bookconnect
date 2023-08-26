@@ -1,5 +1,6 @@
 const asyncHandler = require('express-async-handler');
 const UserList = require('../models/listModel');
+const Activity = require('../models/activityModel');
 
 const addToList = asyncHandler(async (req, res) => {
   const { book, selectedList } = req.body;
@@ -12,9 +13,22 @@ const addToList = asyncHandler(async (req, res) => {
     });
     //if list exists, add the book to books array
     if (list) {
-      list.books.push(book);
-      await list.save();
-      res.status(200).json('Book added successfully');
+      if (list.books.includes(book)) {
+        res.status(400).json(`Book already exists in ${listName}`);
+      } else {
+        //check if book in array
+        list.books.push(book);
+        await list.save();
+
+        //record activity
+        await Activity.create({
+          user: req.user.id,
+          activityType: 'addToList',
+          book: book,
+        });
+
+        res.status(200).json('Book added successfully');
+      }
       //list doesn't exist.Create list and add book
     } else {
       const newList = await UserList.create({
@@ -24,6 +38,11 @@ const addToList = asyncHandler(async (req, res) => {
       if (newList) {
         newList.books.push(book);
         await newList.save();
+        await Activity.create({
+          user: req.user.id,
+          activityType: 'addToList',
+          book: book,
+        });
         res.status(200).json('Book added successfully');
       }
     }
