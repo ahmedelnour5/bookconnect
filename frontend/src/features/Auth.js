@@ -24,12 +24,17 @@ const loginUser = async (userData) => {
 };
 
 //logout user
-const logout = async (userData) => {
+const logout = async () => {
   localStorage.removeItem('user');
 };
 
 const getUser = () => {
-  return JSON.parse(localStorage.getItem('user'));
+  const user = JSON.parse(localStorage.getItem('user'));
+  if (user) {
+    return user;
+  } else {
+    return null;
+  }
 };
 
 const Auth = {

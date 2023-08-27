@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import UserLists from '../Components/UserLists';
-import UserHeader from '../Components/Header/userHeader';
+import Header from '../Components/Header/Header';
 
 const Dashboard = () => {
   return (
     <div className="Dashboard">
-      <UserHeader />
+      <Header />
       <div className="dashContainer">
         <UserLists />
       </div>

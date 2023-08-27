@@ -35,8 +35,6 @@ ul {
 .navList {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-grow: 0.3;
 }
 
 .navList a {
@@ -48,6 +46,11 @@ ul {
 
 .navList a:hover {
   border-bottom: 2px solid var(--my_blue);
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
 }
 
 /*****************************END Navbar*************************************/

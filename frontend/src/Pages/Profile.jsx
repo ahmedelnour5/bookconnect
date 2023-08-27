@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/Profile.css';
-import UserHeader from '../Components/Header/userHeader';
+import Header from '../Components/Header/Header';
 import UserLists from '../Components/UserLists';
 import Avatar from '@mui/material/Avatar';
 import { deepOrange } from '@mui/material/colors';
@@ -46,7 +46,7 @@ const ProfileCard = ({ avatarName, name }) => {
 const Profile = () => {
   return (
     <div className="Profile">
-      <UserHeader />
+      <Header />
       <div className="profileContainer">
         <ProfileCard avatarName={avatarName} name={name} />
         <UserLists />

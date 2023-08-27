@@ -7,9 +7,9 @@ const User = require('../models/userModel');
 // @route   POST /api/users
 // @access  Public
 const registerUser = asyncHandler(async (req, res) => {
-  const { name, email, password } = req.body;
+  const { name, email, username, password } = req.body;
 
-  if (!name || !email || !password) {
+  if (!name || !username || !email || !password) {
     res.status(400);
     throw new Error('Please add all fields');
   }
@@ -22,6 +22,13 @@ const registerUser = asyncHandler(async (req, res) => {
     throw new Error('User already exists');
   }
 
+  //check if username exists
+  const usernameExists = await User.findOne({ username });
+  if (usernameExists) {
+    res.status(400);
+    throw new Error('Username already exists');
+  }
+
   // Hash password
   const salt = await bcrypt.genSalt(10);
   const hashedPassword = await bcrypt.hash(password, salt);
@@ -29,6 +36,7 @@ const registerUser = asyncHandler(async (req, res) => {
   // Create user
   const user = await User.create({
     name,
+    username,
     email,
     password: hashedPassword,
   });
@@ -37,7 +45,7 @@ const registerUser = asyncHandler(async (req, res) => {
     res.status(201).json({
       _id: user.id,
       name: user.name,
-      email: user.email,
+      username: user.username,
       token: generateToken(user._id),
     });
   } else {

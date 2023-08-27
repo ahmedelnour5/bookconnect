@@ -13,12 +13,13 @@ export const RegisterHeader = () => {
 export const RegisterForm = () => {
   const [formData, setFormData] = useState({
     name: '',
+    username: '',
     email: '',
     password: '',
     password2: '',
   });
 
-  const { name, email, password, password2 } = formData;
+  const { name, username, email, password, password2 } = formData;
 
   const handleChange = (e) => {
     setFormData((prevState) => ({
@@ -56,6 +57,15 @@ export const RegisterForm = () => {
           id="Name"
           name="name"
           value={name}
+          onChange={handleChange}
+        />
+        <label>Username:</label>
+        <Input
+          type="text"
+          placeholder="Username"
+          id="Username"
+          name="username"
+          value={username}
           onChange={handleChange}
         />
         <label>Email:</label>
