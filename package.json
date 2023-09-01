@@ -1,11 +1,13 @@
 {
-  "name": "readfluence",
+  "name": "bookconnect",
   "version": "1.0.0",
   "description": "Social book sharing site",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Ahmed Elnour",
   "license": "MIT",
@@ -23,6 +25,7 @@
     "mongoose": "^7.4.1"
   },
   "devDependencies": {
+    "concurrently": "^8.2.1",
     "nodemon": "^3.0.1"
   }
 }

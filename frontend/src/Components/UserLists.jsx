@@ -1,8 +1,29 @@
 import React from 'react';
 import useLists from '../Hooks/useLists';
+import { Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const UserLists = () => {
-  const { lists } = useLists();
+  const { lists, message } = useLists();
+
+  const BrosweMessage = () => {
+    const navigate = useNavigate();
+    const buttonStyles = {
+      fontFamily: 'inherit',
+      bgColor: '#5217fc',
+    };
+    const handleClick = () => {
+      navigate('/books');
+    };
+    return (
+      <div className="browseMessage">
+        <p>Browse our collection of books and start creating lists!</p>
+        <Button onClick={handleClick} sx={buttonStyles}>
+          Explore Books
+        </Button>
+      </div>
+    );
+  };
 
   //book component for a book in userlist
   const ListItem = ({ book }) => {
@@ -35,9 +56,11 @@ const UserLists = () => {
 
   return (
     <div className="userLists">
-      {lists
-        ? lists.map((list) => <UserList key={list._id} list={list} />)
-        : null}
+      {lists && Object.keys(lists).length > 0 ? (
+        lists.map((list) => <UserList key={list._id} list={list} />)
+      ) : (
+        <BrosweMessage />
+      )}
     </div>
   );
 };

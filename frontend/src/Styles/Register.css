@@ -1,9 +1,12 @@
 /**Register**/
 
 .Register {
-  display: grid;
-  height: 100vh;
-  grid-template-rows: auto 1fr auto;
+  max-width: 1440px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 50px;
 }
 
 /**End Register**/
@@ -11,11 +14,10 @@
 /**RegisterNav**/
 .registerNav {
   border-bottom: 1px solid rgb(236, 239, 241);
-  margin-bottom: 40px;
 }
 
 .registerNav-container {
-  max-width: 1540px;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -57,19 +59,14 @@
   padding: 30px;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-}
-
 .form label {
   font-weight: 600;
   letter-spacing: 0.01rem;
 }
 
 .form input {
-  margin: 15px 0;
+  margin: 12px 0;
+  width: 100%;
   padding: 16px;
   font-family: inherit;
   border-radius: 0.9rem;
@@ -85,7 +82,6 @@ input:-internal-autofill-selected {
 }
 
 .form .submitBtn {
-  margin: 12px 0 !important;
   background-color: var(--my_blue);
   font-family: inherit;
   text-transform: none !important;

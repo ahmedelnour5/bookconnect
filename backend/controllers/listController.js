@@ -63,10 +63,10 @@ const getLists = asyncHandler(async (req, res) => {
       populate: { path: 'author', select: 'name -_id' },
     });
 
-    if (lists) {
+    if (lists.length > 0) {
       res.status(200).json(lists);
     } else {
-      res.status(400).json('Did not find lists');
+      res.status(200).json('No lists!');
     }
   } catch (error) {
     res.status(400);

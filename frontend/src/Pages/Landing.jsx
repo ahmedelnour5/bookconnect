@@ -30,10 +30,10 @@ const Main = () => {
 
 const Landing = () => {
   return (
-    <div className="Landing">
+    <>
       <Header />
       <Main />
-    </div>
+    </>
   );
 };
 

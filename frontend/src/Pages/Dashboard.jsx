@@ -4,11 +4,8 @@ import Header from '../Components/Header/Header';
 
 const Dashboard = () => {
   return (
-    <div className="Dashboard">
-      <Header />
-      <div className="dashContainer">
-        <UserLists />
-      </div>
+    <div className="dashContainer">
+      <UserLists />
     </div>
   );
 };

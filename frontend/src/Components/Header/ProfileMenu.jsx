@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import ListItemText from '@mui/material/ListItemText';
@@ -10,8 +10,10 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import Person2Icon from '@mui/icons-material/Person2';
 import LogoutIcon from '@mui/icons-material/Logout';
 import Auth from '../../features/Auth';
+import { UserContext } from '../../Context/UserContext';
 
 export default function ProfileMenu({ name }) {
+  const { setUser } = useContext(UserContext);
   const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = useState();
   const open = Boolean(anchorEl);
@@ -30,7 +32,8 @@ export default function ProfileMenu({ name }) {
   const handleLogOut = async () => {
     setAnchorEl(null);
     await Auth.logout();
-    navigate('/landing');
+    setUser(null);
+    navigate('/');
   };
 
   const btnStyles = {

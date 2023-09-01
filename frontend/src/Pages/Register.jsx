@@ -1,16 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button, Paper } from '@mui/material';
+import { Button } from '@mui/material';
 import Logo from '../Components/Header/Logo';
-import Input from '../Components/Input';
+import Input from '../Components/Form/Input';
+import FormContainer from '../Components/Form/FormContainer';
+import FormGroup from '../Components/Form/FormGroup';
 import Auth from '../features/Auth';
 import '../Styles/Register.css';
+import { UserContext } from '../Context/UserContext';
 
-export const RegisterHeader = () => {
-  return <h1 className="register-heading">Create an account </h1>;
-};
-
-export const RegisterForm = () => {
+const RegisterForm = () => {
+  const { setUser } = useContext(UserContext);
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
     username: '',
@@ -35,80 +36,88 @@ export const RegisterForm = () => {
     } else {
       const userData = {
         name,
+        username,
         email,
         password,
       };
 
       const response = await Auth.registerUser(userData);
       if (response) {
+        const parsedResponse = JSON.parse(response);
+        setUser(parsedResponse);
         navigate('/dashboard');
       }
     }
   };
 
   return (
-    <Paper elevation={3} className="form-container">
-      <RegisterHeader />
+    <FormContainer>
       <form className="form" onSubmit={handleSubmit}>
-        <label>Name:</label>
-        <Input
-          type="text"
-          placeholder="Name"
-          id="Name"
-          name="name"
-          value={name}
-          onChange={handleChange}
-        />
-        <label>Username:</label>
-        <Input
-          type="text"
-          placeholder="Username"
-          id="Username"
-          name="username"
-          value={username}
-          onChange={handleChange}
-        />
-        <label>Email:</label>
-        <Input
-          type="text"
-          placeholder="Email"
-          id="email"
-          name="email"
-          value={email}
-          onChange={handleChange}
-        />
-        <label>Password:</label>
-        <Input
-          type="password"
-          placeholder="Password"
-          id="password"
-          name="password"
-          value={password}
-          onChange={handleChange}
-        />
-        <label>Confirm Password:</label>
-        <Input
-          type="password"
-          placeholder="Confirm Password"
-          id="password2"
-          name="password2"
-          value={password2}
-          onChange={handleChange}
-        />
+        <FormGroup label={'Name:'}>
+          <Input
+            type="text"
+            placeholder="Name"
+            id="Name"
+            name="name"
+            value={name}
+            onChange={handleChange}
+          />
+        </FormGroup>
+        <FormGroup label={'Username:'}>
+          <Input
+            type="text"
+            placeholder="Username"
+            id="Username"
+            name="username"
+            value={username}
+            onChange={handleChange}
+          />
+        </FormGroup>
+        <FormGroup label={'Email:'}>
+          <Input
+            type="text"
+            placeholder="Email"
+            id="email"
+            name="email"
+            value={email}
+            onChange={handleChange}
+          />
+        </FormGroup>
+        <FormGroup label={'Password:'}>
+          <Input
+            type="password"
+            placeholder="Password"
+            id="password"
+            name="password"
+            value={password}
+            onChange={handleChange}
+          />
+        </FormGroup>
+        <FormGroup label={'Confirm Password:'}>
+          <Input
+            type="password"
+            placeholder="Confirm Password"
+            id="password2"
+            name="password2"
+            value={password2}
+            onChange={handleChange}
+          />
+        </FormGroup>
         <Button
           variant="contained"
           fullWidth={true}
           className="submitBtn"
           size="medium"
+          type="submit"
         >
           Create free account
         </Button>
       </form>
-    </Paper>
+    </FormContainer>
   );
 };
 
-export const RegisterNav = () => {
+const RegisterNav = () => {
   const navigate = useNavigate();
   const handleClick = () => {
     navigate('/login');
@@ -117,7 +126,7 @@ export const RegisterNav = () => {
   return (
     <nav className="registerNav">
       <div className="registerNav-container">
-        <Logo />
+        <Logo to={'/landing'} />
         <div className="registerNav-right-container">
           <span>Already have an account?</span>
           <Button variant="outlined" size="medium" onClick={handleClick}>
@@ -131,12 +140,12 @@ export const RegisterNav = () => {
 
 const Register = () => {
   return (
-    <div className="Register">
+    <>
       <RegisterNav />
-      <div className="container">
+      <div className="Register">
         <RegisterForm />
       </div>
-    </div>
+    </>
   );
 };
 

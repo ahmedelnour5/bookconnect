@@ -3,24 +3,24 @@ const API_URL = 'http://localhost:8080/api/users';
 
 //register user
 export const registerUser = async (userData) => {
-  const { data } = axios.post(API_URL, userData);
+  const response = await axios.post(API_URL, userData);
 
-  if (data) {
+  if (response.data) {
     localStorage.setItem('user', JSON.stringify(response.data));
   }
 
-  return data;
+  return response.data;
 };
 
 //login user
 const loginUser = async (userData) => {
-  const { data } = await axios.post(API_URL + '/login', userData);
+  const response = await axios.post(API_URL + '/login', userData);
 
-  if (data) {
-    localStorage.setItem('user', JSON.stringify(data));
+  if (response.data) {
+    localStorage.setItem('user', JSON.stringify(response.data));
   }
 
-  return data;
+  return response.data;
 };
 
 //logout user
