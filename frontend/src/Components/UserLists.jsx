@@ -1,27 +1,35 @@
 import React from 'react';
 import useLists from '../Hooks/useLists';
-import { Button } from '@mui/material';
+import Button from '@mui/material/Button';
+import Paper from '@mui/material/Paper';
 import { useNavigate } from 'react-router-dom';
+import '../Styles/Dashboard.css';
 
 const UserLists = () => {
   const { lists, message } = useLists();
 
   const BrosweMessage = () => {
+    const paperStyles = {
+      gap: 2,
+      p: 3,
+    };
     const navigate = useNavigate();
     const buttonStyles = {
       fontFamily: 'inherit',
-      bgColor: '#5217fc',
+      bgcolor: '#5217fc',
+      mt: 2,
+      mb: 1,
     };
     const handleClick = () => {
       navigate('/books');
     };
     return (
-      <div className="browseMessage">
-        <p>Browse our collection of books and start creating lists!</p>
-        <Button onClick={handleClick} sx={buttonStyles}>
+      <Paper elevation={4} sx={paperStyles}>
+        <p>Browse our collection of books to start creating lists!</p>
+        <Button onClick={handleClick} sx={buttonStyles} variant="contained">
           Explore Books
         </Button>
-      </div>
+      </Paper>
     );
   };
 

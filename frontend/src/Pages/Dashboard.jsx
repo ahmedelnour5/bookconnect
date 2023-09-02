@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import UserLists from '../Components/UserLists';
 import Header from '../Components/Header/Header';
+import '../Styles/Dashboard.css';
 
 const Dashboard = () => {
   return (
-    <div className="dashContainer">
-      <UserLists />
-    </div>
+    <>
+      <Header />
+      <div className="dashContainer">
+        <UserLists />
+      </div>
+    </>
   );
 };
 

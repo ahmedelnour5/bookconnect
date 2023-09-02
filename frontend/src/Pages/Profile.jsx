@@ -1,14 +1,12 @@
 import React, { useContext } from 'react';
 import '../Styles/Profile.css';
-import { UserContext } from '../App';
-import Header from '../Components/Header/Header';
-import UserLists from '../Components/UserLists';
 import Avatar from '@mui/material/Avatar';
 import PersonIcon from '@mui/icons-material/Person';
-import { Button } from '@mui/material';
-
-const { user } = useContext(UserContext);
-const name = user.name;
+import AddIcon from '@mui/icons-material/Add';
+import Button from '@mui/material/Button';
+import { UserContext } from '../Context/UserContext';
+import Header from '../Components/Header/Header';
+import UserLists from '../Components/UserLists';
 
 const UserInfo = () => {
   return (
@@ -26,6 +24,11 @@ const ProfileCard = ({ name }) => {
     marginBottom: 1,
   };
 
+  const buttonStyles = {
+    fontFamily: 'inherit',
+    bgcolor: '#5217fc',
+  };
+
   return (
     <div className="profileCard">
       <div className="bio">
@@ -36,7 +39,9 @@ const ProfileCard = ({ name }) => {
           <span className="profileName">{name}</span>
         </div>
         <div>
-          <Button variant="contained">Follow</Button>
+          <Button variant="contained" endIcon={<AddIcon />} sx={buttonStyles}>
+            Follow
+          </Button>
         </div>
       </div>
       <UserInfo />
@@ -45,11 +50,12 @@ const ProfileCard = ({ name }) => {
 };
 
 const Profile = () => {
+  const { user } = useContext(UserContext);
   return (
     <div className="Profile">
       <Header />
       <div className="profileContainer">
-        <ProfileCard avatarName={avatarName} name={name} />
+        <ProfileCard name={user.name} />
         <UserLists />
       </div>
     </div>

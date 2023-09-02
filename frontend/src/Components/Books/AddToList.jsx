@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import axios from 'axios';
 import IconButton from '@mui/material/IconButton';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import Auth from '../../features/Auth';
 import ListModal from './Modal';
+import { UserContext } from '../../Context/UserContext';
 
 const AddToList = ({ coverImg, book }) => {
   const iconStyles = {
@@ -12,7 +13,7 @@ const AddToList = ({ coverImg, book }) => {
   };
 
   const API_URL = 'http://localhost:8080/api/userLists';
-  const user = Auth.getUser();
+  const { user } = useContext(UserContext);
 
   const [open, setOpen] = useState(false);
 

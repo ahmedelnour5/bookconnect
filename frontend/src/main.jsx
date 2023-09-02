@@ -14,6 +14,7 @@ import Register from './Pages/Register.jsx';
 import Books from './Pages/Books.jsx';
 import PrivateRoute from './Components/PrivateRoute.jsx';
 import UserProvider from './Context/UserContext.jsx';
+import Profile from './Pages/Profile.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="/categories/:category" element={<Books />} />
       <Route path="login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/profile" element={<Profile />} />
       <Route path="" element={<PrivateRoute />}>
         <Route path="/dashboard" element={<Dashboard />} />
       </Route>
@@ -31,9 +33,9 @@ const router = createBrowserRouter(
 );
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <UserProvider>
-    <React.StrictMode>
+  <React.StrictMode>
+    <UserProvider>
       <RouterProvider router={router} />
-    </React.StrictMode>
-  </UserProvider>
+    </UserProvider>
+  </React.StrictMode>
 );

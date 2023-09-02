@@ -43,76 +43,74 @@ const RegisterForm = () => {
 
       const response = await Auth.registerUser(userData);
       if (response) {
-        const parsedResponse = JSON.parse(response);
-        setUser(parsedResponse);
+        const stringResponse = JSON.stringify(response);
+        setUser(JSON.parse(stringResponse));
         navigate('/dashboard');
       }
     }
   };
 
   return (
-    <FormContainer>
-      <form className="form" onSubmit={handleSubmit}>
-        <FormGroup label={'Name:'}>
-          <Input
-            type="text"
-            placeholder="Name"
-            id="Name"
-            name="name"
-            value={name}
-            onChange={handleChange}
-          />
-        </FormGroup>
-        <FormGroup label={'Username:'}>
-          <Input
-            type="text"
-            placeholder="Username"
-            id="Username"
-            name="username"
-            value={username}
-            onChange={handleChange}
-          />
-        </FormGroup>
-        <FormGroup label={'Email:'}>
-          <Input
-            type="text"
-            placeholder="Email"
-            id="email"
-            name="email"
-            value={email}
-            onChange={handleChange}
-          />
-        </FormGroup>
-        <FormGroup label={'Password:'}>
-          <Input
-            type="password"
-            placeholder="Password"
-            id="password"
-            name="password"
-            value={password}
-            onChange={handleChange}
-          />
-        </FormGroup>
-        <FormGroup label={'Confirm Password:'}>
-          <Input
-            type="password"
-            placeholder="Confirm Password"
-            id="password2"
-            name="password2"
-            value={password2}
-            onChange={handleChange}
-          />
-        </FormGroup>
-        <Button
-          variant="contained"
-          fullWidth={true}
-          className="submitBtn"
-          size="medium"
-          type="submit"
-        >
-          Create free account
-        </Button>
-      </form>
+    <FormContainer onSubmit={handleSubmit}>
+      <FormGroup label={'Name:'}>
+        <Input
+          type="text"
+          placeholder="Name"
+          id="Name"
+          name="name"
+          value={name}
+          onChange={handleChange}
+        />
+      </FormGroup>
+      <FormGroup label={'Username:'}>
+        <Input
+          type="text"
+          placeholder="Username"
+          id="Username"
+          name="username"
+          value={username}
+          onChange={handleChange}
+        />
+      </FormGroup>
+      <FormGroup label={'Email:'}>
+        <Input
+          type="text"
+          placeholder="Email"
+          id="email"
+          name="email"
+          value={email}
+          onChange={handleChange}
+        />
+      </FormGroup>
+      <FormGroup label={'Password:'}>
+        <Input
+          type="password"
+          placeholder="Password"
+          id="password"
+          name="password"
+          value={password}
+          onChange={handleChange}
+        />
+      </FormGroup>
+      <FormGroup label={'Confirm Password:'}>
+        <Input
+          type="password"
+          placeholder="Confirm Password"
+          id="password2"
+          name="password2"
+          value={password2}
+          onChange={handleChange}
+        />
+      </FormGroup>
+      <Button
+        variant="contained"
+        fullWidth={true}
+        className="submitBtn"
+        size="medium"
+        type="submit"
+      >
+        Create free account
+      </Button>
     </FormContainer>
   );
 };
