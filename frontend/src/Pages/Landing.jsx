@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Header from '../Components/Header/Header';
-import '../Styles/Landing.css';
+import FeatureSections from '../Components/FeatureSections';
 import IMAGES from '../Images/Images';
 import Image from '../Components/Image';
-import FeatureSections from '../Components/FeatureSections';
+import '../Styles/Landing.css';
+import { UserContext } from '../Context/UserContext';
 
 const Main = () => {
   const Text = () => {
@@ -29,6 +31,13 @@ const Main = () => {
 };
 
 const Landing = () => {
+  const { user } = useContext(UserContext);
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (user && user !== 'null') {
+      navigate('/dashboard');
+    }
+  }, [user]);
   return (
     <>
       <Header />

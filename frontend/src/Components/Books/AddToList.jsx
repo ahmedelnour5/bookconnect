@@ -1,10 +1,8 @@
 import React, { useContext, useState } from 'react';
-import axios from 'axios';
 import IconButton from '@mui/material/IconButton';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import Auth from '../../features/Auth';
 import ListModal from './Modal';
-import { UserContext } from '../../Context/UserContext';
+import usePost from '../../Hooks/usePost';
 
 const AddToList = ({ coverImg, book }) => {
   const iconStyles = {
@@ -12,10 +10,10 @@ const AddToList = ({ coverImg, book }) => {
     marginTop: 0.8,
   };
 
-  const API_URL = 'http://localhost:8080/api/userLists';
-  const { user } = useContext(UserContext);
-
+  const LIST_API_URL = 'http://localhost:8080/api/userLists';
+  const Rating_API_URL = 'http://localhost:8080/api/ratings';
   const [open, setOpen] = useState(false);
+  const [finished, setFinished] = useState(false);
 
   const handleOpen = () => {
     if (!open) {
@@ -24,24 +22,39 @@ const AddToList = ({ coverImg, book }) => {
   };
 
   const handleClose = () => setOpen(false);
-  const handleBtnClose = () => setOpen(false);
 
-  const handleClick = async (selectedList, user) => {
+  const handleBtnClose = () => {
+    setOpen(false);
+    setFinished(false);
+  };
+
+  const handleClick = async (selectedList) => {
     handleClose();
+    const listData = { book, selectedList };
+  };
 
-    try {
+  const handleFinished = async (selectedList, thoughts, rating) => {
+    setFinished(true);
+
+    if (rating > 0 && thoughts !== null) {
+      setFinished(false);
+      handleClose();
+      const ratingData = { rating, thoughts, book };
+      const { data, error } = usePost(Rating_API_URL, ratingData);
+    } else if (rating > 0) {
+      setFinished(false);
+      handleClose();
+      const ratingData = { rating, book };
+      const { data, error } = usePost(Rating_API_URL, ratingData);
+    } else if (thoughts !== null) {
+      setFinished(false);
+      handleClose();
+      const ratingData = { thoughts, book };
+    } else {
+      setFinished(false);
+      handleClose();
       const listData = { book, selectedList };
-      const config = {
-        headers: {
-          Authorization: 'Bearer ' + user.token,
-        },
-      };
-      const { data } = await axios.post(API_URL, listData, config);
-      if (data) {
-        console.log(data);
-      }
-    } catch (error) {
-      console.log(error);
+      const { data, error } = usePost(LIST_API_URL, listData);
     }
   };
 
@@ -54,6 +67,8 @@ const AddToList = ({ coverImg, book }) => {
         handleClose={handleClose}
         coverImg={coverImg}
         handleButtonClick={handleClick}
+        finished={finished}
+        handleFinished={handleFinished}
       />
     </IconButton>
   );

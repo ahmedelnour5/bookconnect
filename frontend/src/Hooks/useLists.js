@@ -15,16 +15,16 @@ const useLists = () => {
 
   useEffect(() => {
     const getLists = async () => {
-      try {
-        const { data } = await axios.get(API_URL, config);
-        if (data && data.message === 'No lists!') {
-          setMessage('No Lists!');
-        } else if (data && Array.isArray(data)) {
-          setLists(data);
-        }
-      } catch (error) {
-        console.log(error);
-      }
+      await axios
+        .get(API_URL, config)
+        .then((res) => {
+          if (res.data && res.data.message === 'No lists!') {
+            setMessage('No Lists!');
+          } else if (res.data && Array.isArray(res.data)) {
+            setLists(res.data);
+          }
+        })
+        .catch((error) => console.error(error));
     };
     getLists();
   }, []);
