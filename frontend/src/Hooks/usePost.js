@@ -5,6 +5,7 @@ import { UserContext } from '../Context/UserContext';
 const usePost = (userData, API_URL) => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+  const [pending, setPending] = useState(false);
   const user = useContext(UserContext);
 
   const config = {
@@ -15,11 +16,14 @@ const usePost = (userData, API_URL) => {
 
   useEffect(() => {
     const post = async () => {
+      setPending(true);
       try {
         const response = await axios.post(API_URL, userData, config);
         setData(response.data);
+        setPending(false);
       } catch (error) {
         setError(error);
+        setPending(false);
       }
     };
 
@@ -27,7 +31,7 @@ const usePost = (userData, API_URL) => {
     post();
   }, [userData, API_URL, config]); // Include dependencies in the array
 
-  return { data, error }; // Return the data and error states
+  return { data, error, pending }; // Return the data and error states
 };
 
 export default usePost;

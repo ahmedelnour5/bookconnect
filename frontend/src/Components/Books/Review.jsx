@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import '../../Styles/Review.css';
 
 const Review = ({ handleFinished }) => {
-  const [userThoughts, setUserThoughts] = useState(null);
+  const [userThoughts, setUserThoughts] = useState('');
   const [userRating, setUserRating] = useState(0);
 
   const buttonStyle = {
@@ -15,12 +15,11 @@ const Review = ({ handleFinished }) => {
 
   const handleThoughtsChange = (e) => {
     setUserThoughts(e.target.value);
-    handleFinished(userThoughts);
   };
 
-  const handleRatingChange = (newValue) => {
+  const handleRatingChange = (e, newValue) => {
+    console.log(newValue);
     setUserRating(newValue);
-    handleFinished(userRating);
   };
 
   return (
@@ -35,7 +34,13 @@ const Review = ({ handleFinished }) => {
         maxLength={160}
       ></textarea>
       <Rating value={userRating} size="large" onChange={handleRatingChange} />
-      <Button variant="contained" sx={buttonStyle} size="large" type="submit">
+      <Button
+        variant="contained"
+        sx={buttonStyle}
+        size="large"
+        type="submit"
+        onClick={() => handleFinished(userThoughts, userRating)}
+      >
         Continue
       </Button>
     </>
