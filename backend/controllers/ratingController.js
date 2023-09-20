@@ -18,4 +18,23 @@ const createRating = asyncHandler(async (req, res) => {
   }
 });
 
-module.exports = { createRating };
+const getRatings = asyncHandler(async (req, res) => {
+  const { userID } = req.body;
+  try {
+    const ratings = await Rating.find({ user: userID }).populate({
+      path: 'book',
+      select: 'title coverImage',
+      populate: { path: 'author', select: 'name -_id' },
+    });
+    if (ratings.length > 0) {
+      res.status(200).json(ratings);
+    } else {
+      res.status(200).json(`user hasnt rated any books`);
+    }
+  } catch (error) {
+    res.status(400);
+    console.error(error);
+  }
+});
+
+module.exports = { createRating, getRatings };

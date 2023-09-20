@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
   createBrowserRouter,
@@ -24,7 +24,10 @@ const router = createBrowserRouter(
       <Route path="/categories/:category" element={<Books />} />
       <Route path="login" element={<Login />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/profile" element={<Profile />} />
+      <Route path="/profile/:username" element={<Profile />}>
+        <Route path="lists" element={<Profile />} />
+        <Route path="reviews" element={<Profile />} />
+      </Route>
       <Route path="" element={<PrivateRoute />}>
         <Route path="/dashboard" element={<Dashboard />} />
       </Route>

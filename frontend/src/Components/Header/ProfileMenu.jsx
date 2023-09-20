@@ -13,7 +13,7 @@ import Auth from '../../features/Auth';
 import { UserContext } from '../../Context/UserContext';
 
 export default function ProfileMenu({ name }) {
-  const { setUser } = useContext(UserContext);
+  const { setUser, user } = useContext(UserContext);
   const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = useState();
   const open = Boolean(anchorEl);
@@ -26,7 +26,7 @@ export default function ProfileMenu({ name }) {
   };
   const handleProfile = () => {
     setAnchorEl(null);
-    navigate('/profile');
+    navigate(`/profile/${user.username}`);
   };
 
   const handleLogOut = async () => {

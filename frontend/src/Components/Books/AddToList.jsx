@@ -14,7 +14,6 @@ const AddToList = ({ coverImg, book }) => {
 
   const LIST_API_URL = 'http://localhost:8080/api/userLists';
   const Rating_API_URL = 'http://localhost:8080/api/ratings';
-  // open and close modal
   const [open, setOpen] = useState(false);
   const [finished, setFinished] = useState(false);
   const [isPending, setIsPending] = useState(false);
@@ -22,6 +21,7 @@ const AddToList = ({ coverImg, book }) => {
   const [error, setError] = useState(false);
   const [selectedList, setSelectedList] = useState('');
   const [message, setMessage] = useState('');
+
   const { user } = useContext(UserContext);
   const config = {
     headers: {
@@ -66,6 +66,19 @@ const AddToList = ({ coverImg, book }) => {
     setSelectedList(selectedList);
   };
 
+  const createActivity = async (activity) => {
+    const ACTIVITY_API = 'http://localhost:8080/api/activity';
+    const activityData = { activity, book };
+    const response = await axios
+      .post(ACTIVITY_API, activityData, config)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
   const handleFinished = async (thoughts, rating) => {
     setIsPending(true);
 
@@ -75,11 +88,12 @@ const AddToList = ({ coverImg, book }) => {
     if (thoughts !== '' && rating > 0) {
       const ratingData = { thoughts, book, rating };
       const ratingResponse = axios.post(Rating_API_URL, ratingData, config);
-      console.log(config);
       const responses = await axios
         .all([listResponse, ratingResponse])
         .then(
           axios.spread((listRes) => {
+            createActivity('bookSummary');
+            setSuccess(true);
             setIsPending(false);
             setFinished(false);
             handleClose();
@@ -100,9 +114,11 @@ const AddToList = ({ coverImg, book }) => {
         .all([listResponse, ratingResponse])
         .then(
           axios.spread((listRes) => {
+            createActivity('bookSummary');
             setIsPending(false);
             setFinished(false);
             handleClose();
+            setSuccess(true);
             setMessage(listRes.data.message);
           })
         )
@@ -121,9 +137,11 @@ const AddToList = ({ coverImg, book }) => {
         .all([listResponse, ratingResponse])
         .then(
           axios.spread((listRes) => {
+            createActivity('bookRating');
             setIsPending(false);
             setFinished(false);
             handleClose();
+            setSuccess(true);
             setMessage(listRes.data.message);
           })
         )
@@ -138,9 +156,11 @@ const AddToList = ({ coverImg, book }) => {
       const listResponse = axios
         .post(LIST_API_URL, listData, config)
         .then((listRes) => {
+          createActivity('addToList');
           setIsPending(false);
           setFinished(false);
           handleClose();
+          setSuccess(true);
           setMessage(listRes.data.message);
         })
         .catch((error) => {

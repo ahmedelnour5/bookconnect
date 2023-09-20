@@ -7,9 +7,7 @@ const Dashboard = () => {
   return (
     <>
       <Header />
-      <div className="dashContainer">
-        <UserLists />
-      </div>
+      <div className="dashContainer"></div>
     </>
   );
 };

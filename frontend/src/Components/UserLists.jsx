@@ -40,10 +40,6 @@ const UserLists = () => {
         <div className="itemCover">
           <img className="coverImg" src={book.coverImage} loading="lazy"></img>
         </div>
-        <div className="itemDetails">
-          <span className="book-title">{book.title}</span>
-          <span className="book-author">{book.author.name}</span>
-        </div>
       </div>
     );
   };
