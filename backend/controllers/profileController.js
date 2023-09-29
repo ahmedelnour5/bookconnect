@@ -29,7 +29,7 @@ const getProfile = asyncHandler(async (req, res) => {
 
     const followingData = await Following.find({ user: user._id });
     const followersData = await Followers.find({ user: user._id });
-    const listsData = await UserList.find({ user: user }, 'listname').populate({
+    const listsData = await UserList.find({ user: user }).populate({
       path: 'books',
       select: 'title coverImage',
       populate: { path: 'author', select: 'name -_id' },

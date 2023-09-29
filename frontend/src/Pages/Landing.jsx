@@ -34,7 +34,7 @@ const Landing = () => {
   const { user } = useContext(UserContext);
   const navigate = useNavigate();
   useEffect(() => {
-    if (user && user !== 'null') {
+    if (user && Object.keys(user).length > 0) {
       navigate('/dashboard');
     }
   }, [user]);

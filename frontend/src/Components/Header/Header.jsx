@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        {user && user !== 'null' ? (
+        {user && Object.keys(user).length > 0 ? (
           <Logo to={'/dashboard'} />
         ) : (
           <Logo to={'/landing'} />

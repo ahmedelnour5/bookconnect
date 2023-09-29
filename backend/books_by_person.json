@@ -1,0 +1,1061 @@
+{
+  "oprah-winfrey": {
+    "books": [
+      { "title": "The Four Agreements", "author": "Don Miguel Ruiz" },
+      { "title": "Anna Karenina", "author": "Leo Tolstoy" },
+      {
+        "title": "The Road (Vintage International)",
+        "author": "Cormac McCarthy"
+      },
+      { "title": "Becoming", "author": "Michelle Obama" },
+      { "title": "The Road", "author": "Cormac McCarthy" },
+      { "title": "To Kill a Mockingbird", "author": "Harper Lee" },
+      { "title": "A Tale of Two Cities", "author": "Charles Dickens" },
+      {
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel Garcia Marquez"
+      },
+      { "title": "East of Eden", "author": "John Steinbeck" },
+      { "title": "Song of Solomon", "author": "Toni Morrison" },
+      { "title": "Wild", "author": "Cheryl Strayed" },
+      { "title": "A New Earth", "author": "Eckhart Tolle" },
+      { "title": "The Underground Railroad", "author": "Colson Whitehead" },
+      { "title": "An American Marriage", "author": "Tayari Jones" },
+      { "title": "Sula", "author": "Toni Morrison" },
+      { "title": "Will", "author": "Will Smith and Mark Manson" },
+      { "title": "A Fine Balance", "author": "Rohinton Mistry" },
+      { "title": "The Good Earth", "author": "Pearl S. Buck" },
+      { "title": "The Bluest Eye", "author": "Toni Morrison" },
+      { "title": "The Corrections", "author": "Jonathan Franzen" },
+      { "title": "The Seat of the Soul", "author": "Gary Zukav" },
+      {
+        "title": "Love in the Time of Cholera",
+        "author": "Gabriel García Márquez"
+      },
+      { "title": "The Sound and the Fury", "author": "William Faulkner" },
+      { "title": "Light in August", "author": "William Faulkner" },
+      { "title": "Love Warrior", "author": "Glennon Doyle" },
+      { "title": "As I Lay Dying", "author": "William Faulkner" },
+      { "title": "The Tiger's Wife", "author": "Téa Obreht" },
+      { "title": "Cry, the Beloved Country", "author": "Alan Paton" },
+      { "title": "She's Come Undone", "author": "Wally Lamb" },
+      { "title": "Freedom", "author": "Jonathan Franzen" },
+      { "title": "The Poisonwood Bible", "author": "Barbara Kingsolver" },
+      { "title": "Middlesex", "author": "Jeffrey Eugenides" },
+      { "title": "I Know This Much Is True", "author": "Wally Lamb" },
+      { "title": "Great Expectations", "author": "Charles Dickens" },
+      { "title": "While I Was Gone", "author": "Sue Miller" },
+      { "title": "All That You Leave Behind", "author": "Erin Lee Carr" },
+      { "title": "Devotions", "author": "Mary Oliver" },
+      { "title": "Atlas of the Heart", "author": "Brené Brown" },
+      {
+        "title": "There Are More Beautiful Things Than Beyonce",
+        "author": "Morgan Parker"
+      },
+      { "title": "After Visiting with Friends", "author": "Michael Haney" },
+      { "title": "Fall On Your Knees", "author": "Ann-Marie MacDonald" },
+      { "title": "The Heart of a Woman", "author": "Maya Angelou" },
+      { "title": "White Oleander", "author": "Janet Fitch" },
+      { "title": "The Sun Does Shine", "author": "Anthony Ray Hinton" },
+      { "title": "Vinegar Hill", "author": "A. Manette Ansay" },
+      { "title": "The Water Dancer", "author": "Ta-Nehisi Coates" },
+      { "title": "Gap Creek", "author": "Robert Morgan" },
+      { "title": "Rapture of Canaan", "author": "Sheri Reynolds" },
+      { "title": "The Deep End of the Ocean", "author": "Jacquelyn Mitchard" },
+      {
+        "title": "What Looks Like Crazy On an Ordinary Day",
+        "author": "Pearl Cleage"
+      },
+      { "title": "Say You're One of Them", "author": "Uwem Akpan" },
+      { "title": "Back Roads", "author": "Tawni O'Dell" },
+      { "title": "The Twelve Tribes of Hattie", "author": "Ayana Mathis" },
+      { "title": "The Measure of a Man", "author": "Sidney Poitier" },
+      { "title": "Breath, Eyes, Memory", "author": "Edwidge Danticat" },
+      { "title": "Songs in Ordinary Time", "author": "Mary McGarry Morris" },
+      { "title": "The Book of Ruth", "author": "Jane Hamilton" },
+      { "title": "A Virtuous Woman", "author": "Kaye Gibbons" },
+      { "title": "Midwives", "author": "Chris Bohjalian" },
+      { "title": "Where the Heart Is", "author": "Billie Letts" },
+      { "title": "Black and Blue", "author": "Anna Quindlen" },
+      { "title": "The Best Way to Play", "author": "Bill Cosby" },
+      { "title": "Drowning Ruth", "author": "Christina Schwarz" },
+      { "title": "Night", "author": "Elie Wiesel" },
+      { "title": "The Pilot's Wife", "author": "Anita Shreve" },
+      { "title": "Open House", "author": "Elizabeth Berg" },
+      { "title": "The Story of Edgar Sawtelle", "author": "David Wroblewski" },
+      { "title": "House of Sand and Fog", "author": "Andre Dubus III" },
+      { "title": "Ellen Foster", "author": "Kaye Gibbons" },
+      { "title": "Tara Road", "author": "Maeve Binchy" },
+      { "title": "Olive, Again", "author": "Elizabeth Strout" },
+      { "title": "Stolen Lives", "author": "Malika Oufkir" },
+      { "title": "Ruby", "author": "Cynthia Bond" },
+      { "title": "The Invention of Wings", "author": "Sue Monk Kidd" },
+      { "title": "Icy Sparks", "author": "Gwyn Hyman Rubio" },
+      { "title": "We Were the Mulvaneys", "author": "Joyce Carol Oates" },
+      { "title": "Here on Earth", "author": "Alice Hoffman" },
+      { "title": "The Heart Is a Lonely Hunter", "author": "Carson McCullers" },
+      { "title": "Stones from the River", "author": "Ursula Hegi" },
+      { "title": "Paradise", "author": "Toni Morrison" },
+      { "title": "Daughter of Fortune", "author": "Isabel Allende" },
+      { "title": "River, Cross My Heart", "author": "Breena Clarke" },
+      { "title": "A Lesson Before Dying", "author": "Ernest J. Gaines" },
+      { "title": "Mother of Pearl", "author": "Melinda Haynes" },
+      { "title": "Cane River", "author": "Lalita Tademy" },
+      { "title": "The Reader", "author": "Bernhard Schlink" },
+      { "title": "A Million Little Pieces", "author": "James Frey" },
+      { "title": "A Map of the World", "author": "Jane Hamilton" },
+      { "title": "Jewel", "author": "Bret Lott" },
+      { "title": "Behold the Dreamers", "author": "Imbolo Mbue" },
+      { "title": "The Pillars of the Earth", "author": "Ken Follett" },
+      { "title": "Finding Me", "author": "Viola Davis" }
+    ],
+    "bio": "Oprah Winfrey is an American media executive, actress, talk show host, television producer, and philanthropist. She is best known for her talk show, The Oprah Winfrey Show, broadcast from Chicago, which was the highest-rated television program of its kind in history.",
+    "tags": ["actor", "entrepreneur", "media personality", "author"]
+  },
+  "bob-iger": {
+    "books": [
+      { "title": "Between the World and Me", "author": "Ta-Nehisi Coates" },
+      { "title": "The Wright Brothers", "author": "David McCullough" },
+      { "title": "Tenth of December", "author": "George Saunders" },
+      { "title": "Born to Run", "author": "Bruce Springsteen" },
+      { "title": "100 Deadly Skills", "author": "Clint Emerson" },
+      { "title": "Tender Is the Night", "author": "F. Scott Fitzgerald" },
+      { "title": "Black Flags", "author": "Joby Warrick" }
+    ],
+    "bio": "Robert Allen Iger is an American media executive and film producer who is Executive Chairman of The Walt Disney Company. He was CEO from 2005 to 2020.",
+    "tags": ["entrepreneur"]
+  },
+  "mark-cuban": {
+    "books": [
+      { "title": "Principles", "author": "Ray Dalio" },
+      { "title": "Atlas Shrugged", "author": "Ayn Rand" },
+      {
+        "title": "The Innovator's Dilemma",
+        "author": "Clayton M. Christensen"
+      },
+      { "title": "The Lean Startup", "author": "Eric Ries" },
+      { "title": "The Fountainhead", "author": "Ayn Rand" },
+      { "title": "The Undoing Project", "author": "Michael Lewis" },
+      { "title": "Rework", "author": "David Heinemeier Hansson" },
+      { "title": "The Sports Gene", "author": "David Epstein" },
+      { "title": "The Politics Industry", "author": "Katherine M. Gehl" },
+      { "title": "That's What She Said", "author": "Joanne Lipman" },
+      { "title": "The Great Revolt", "author": "Salena Zito" },
+      { "title": "The Only Game in Town", "author": "Mohamed El-Erian" },
+      { "title": "Political Tribes", "author": "Amy Chua" },
+      { "title": "Self-Made Success", "author": "Shaan Patel" },
+      {
+        "title": "Cashing in on the American Dream",
+        "author": "Paul Terhorst"
+      },
+      { "title": "Our Mathematical Universe", "author": "Max Tegmark" }
+    ],
+    "bio": "Mark Cuban is an American entrepreneur and investor. He is the owner of the National Basketball Association (NBA)'s Dallas Mavericks, co-owner of 2929 Entertainment, and chairman of AXS TV. He is also one of the main \"shark\" investors on the ABC reality television series, Shark Tank.",
+    "tags": [
+      "entrepreneur",
+      "media personality",
+      "venture capitalist",
+      "author"
+    ]
+  },
+  "mark-zuckerberg": {
+    "books": [
+      { "title": "Sapiens", "author": "Yuval Noah Harari" },
+      { "title": "High Output Management", "author": "Andrew Grove" },
+      {
+        "title": "\"Surely You're Joking, Mr. Feynman!\"",
+        "author": "Richard P. Feynman"
+      },
+      { "title": "The Three-Body Problem", "author": "Cixin Liu" },
+      { "title": "Creativity, Inc.", "author": "Ed Catmull" },
+      { "title": "The Better Angels of Our Nature", "author": "Steven Pinker" },
+      { "title": "The Beginning of Infinity", "author": "David Deutsch" },
+      { "title": "Ender's Game", "author": "Orson Scott Card" },
+      { "title": "Einstein", "author": "Walter Isaacson" },
+      { "title": "The Rational Optimist", "author": "Matt Ridley" },
+      { "title": "Open", "author": "Andre Agassi" },
+      {
+        "title": "The Structure of Scientific Revolutions",
+        "author": "Thomas S. Kuhn"
+      },
+      { "title": "The Republic", "author": "Plato" },
+      { "title": "The Player of Games", "author": "Iain M. Banks" },
+      { "title": "The New Jim Crow", "author": "Michelle Alexander" },
+      { "title": "The Last Days of Night", "author": "Graham Moore" },
+      { "title": "The Giving Tree", "author": "Shel Silverstein" },
+      {
+        "title": "Why Nations Fail",
+        "author": "Daron Acemo\u00c4\u009flu & James A. Robinson"
+      },
+      { "title": "Genome", "author": "Matt Ridley" },
+      { "title": "The Idea Factory", "author": "Jon Gertner" },
+      { "title": "The Aeneid", "author": "Virgil" },
+      { "title": "World Order", "author": "Henry Kissinger" },
+      { "title": "Decoded", "author": "Jay-Z" },
+      { "title": "Numbers Don't Lie", "author": "Vaclav Smil" },
+      {
+        "title": "The Varieties of Religious Experience",
+        "author": "William James"
+      },
+      { "title": "On Immunity", "author": "Eula Biss" },
+      { "title": "The Information", "author": "James Gleick" },
+      { "title": "Aeneid", "author": "Virgil" },
+      { "title": "Gang Leader for a Day", "author": "Sudhir Venkatesh" },
+      { "title": "Energy", "author": "Vaclav Smil" },
+      { "title": "The House of Rothschild", "author": "Niall Ferguson" },
+      {
+        "title": "Dealing with China",
+        "author": "Henry M. Paulson Jr. & Michael K. Carroll"
+      },
+      { "title": "American Lion", "author": "Jon Meacham" },
+      { "title": "The Muqaddimah", "author": "Ibn Khaldun" },
+      { "title": "Portfolios of the Poor", "author": "Daryl Collins" },
+      { "title": "Physics of the Impossible", "author": "Michio Kaku" },
+      {
+        "title": "The End of Power",
+        "author": "Mois\u00c3\u00a9s Na\u00c3\u00adm"
+      },
+      { "title": "Rational Ritual", "author": "Michael Suk-Young Chwe" },
+      { "title": "Orwell's Revenge", "author": "Peter Huber" }
+    ],
+    "bio": "Mark Zuckerberg is an American internet entrepreneur and philanthropist. He is known for co-founding and leading Facebook, Inc. and its namesake social networking website as its chairman, chief executive officer, and controlling shareholder.",
+    "tags": ["entrepreneur", "technology", "venture capitalist"]
+  },
+  "michelle-obama": {
+    "books": [
+      { "title": "Educated", "author": "Tara Westover" },
+      { "title": "Song of Solomon", "author": "Toni Morrison" },
+      { "title": "An American Marriage", "author": "Tayari Jones" },
+      { "title": "The Girl on the Train", "author": "Paula Hawkins" },
+      { "title": "Exit West", "author": "Mohsin Hamid" },
+      { "title": "Gone Girl", "author": "Gillian Flynn" },
+      { "title": "Goodnight Moon", "author": "Margaret Wise Brown" },
+      { "title": "Life of Pi", "author": "Yann Martel" },
+      { "title": "Where the Wild Things Are", "author": "Maurice Sendak" },
+      { "title": "The Diary of a Young Girl", "author": "Anne Frank" },
+      { "title": "Commonwealth", "author": "Ann Patchett" },
+      {
+        "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+        "author": "Judith Viorst"
+      },
+      { "title": "Finding My Voice", "author": "Valerie Jarrett" },
+      { "title": "White Teeth", "author": "Zadie Smith" },
+      { "title": "A Promised Land", "author": "Barack Obama" },
+      {
+        "title": "Camp Confidential",
+        "author": "Melissa J. Morgan"
+      },
+      { "title": "Babar", "author": "Jean de Brunhoff" },
+      { "title": "The Light of the World", "author": "Elizabeth Alexander" },
+      { "title": "The Cat in the Hat", "author": "Dr. Seuss" },
+      { "title": "Olivia", "author": "Ian Falconer" },
+      {
+        "title": "Brown Bear, Brown Bear, What Do You See?",
+        "author": "Bill Martin"
+      }
+    ],
+    "bio": "Michelle LaVaughn Robinson Obama is an American lawyer and author who was the first lady of the United States from 2009 to 2017. She is married to the 44th President of the United States Barack Obama. She is the first African-American First Lady of the United States.",
+    "tags": ["politics", "author"]
+  },
+  "jack-dorsey": {
+    "books": [
+      { "title": "Principles", "author": "Ray Dalio" },
+      { "title": "Mindset", "author": "Carol S. Dweck" },
+      { "title": "The Four Agreements", "author": "Don Miguel Ruiz" },
+      { "title": "Tao Te Ching", "author": "Lao Tzu" },
+      { "title": "The Checklist Manifesto", "author": "Atul Gawande" },
+      { "title": "The Score Takes Care of Itself", "author": "Bill Walsh" },
+      { "title": "Between the World and Me", "author": "Ta-Nehisi Coates" },
+      { "title": "Becoming Steve Jobs", "author": "Brent Schlender" },
+      { "title": "The Master and Margarita", "author": "Mikhail Bulgakov" },
+      { "title": "The Old Man and the Sea", "author": "Ernest Hemingway" },
+      { "title": "The Start-up of You", "author": "Reid Hoffman" },
+      { "title": "The Art Spirit", "author": "Robert Henri" },
+      { "title": "The Plant Paradox", "author": "Steven R. Gundry" },
+      { "title": "The Paleo Solution", "author": "Robb Wolf" },
+      { "title": "American Nations", "author": "Colin Woodard" }
+    ],
+    "bio": "Jack Dorsey is an American computer programmer and Internet entrepreneur who is the co-founder and former CEO of Twitter, and the founder and CEO of Square, a mobile payments company.",
+    "tags": ["entrepreneur", "technology", "venture capitalist"]
+  },
+  "martin-shkreli": {
+    "books": [
+      { "title": "The Hard Thing About Hard Things", "author": "Ben Horowitz" },
+      { "title": "Shoe Dog", "author": "Phil Knight" },
+      { "title": "The Three-Body Problem", "author": "Cixin Liu" },
+      { "title": "The Intelligent Investor", "author": "Benjamin Graham" },
+      {
+        "title": "Zen and the Art of Motorcycle Maintenance",
+        "author": "Robert M. Pirsig"
+      },
+      { "title": "Freakonomics", "author": "Steven D. Levitt" },
+      { "title": "The Snowball", "author": "Alice Schroeder" },
+      {
+        "title": "Security Analysis",
+        "author": "Benjamin Graham & David L. Dodd"
+      },
+      {
+        "title": "Common Stocks and Uncommon Profits",
+        "author": "Philip A. Fisher"
+      },
+      {
+        "title": "Structure and Interpretation of Computer Programs",
+        "author": "Harold Abelson"
+      },
+      { "title": "The Mythical Man-Month", "author": "Frederick P. Brooks Jr" },
+      { "title": "Margin of Safety", "author": "Seth Klarman" },
+      { "title": "Euclid's Elements", "author": "Euclid" },
+      {
+        "title": "The Physics of Wall Street",
+        "author": "James Owen Weatherall"
+      },
+      {
+        "title": "Code: The Hidden Language of Computer Hardware and Software",
+        "author": "Charles Petzold"
+      },
+      { "title": "The History of the Future", "author": "Blake J. Harris" }
+    ],
+    "bio": "Martin Shkreli (Pharma Bro) is a former hedge fund manager from the United States. Shkreli is a co-founder of the hedge funds Elea Capital, MSMB Capital Management, and MSMB Healthcare; a co-founder and former CEO of the pharmaceutical companies Retrophin and Turing Pharmaceuticals (now Vyera Pharmaceuticals); and a former CEO of the start-up software business G\u00c3\u00b6del Systems.",
+    "tags": ["entrepreneur", "investor", "media personality", "crypto"]
+  },
+  "barack-obama": {
+    "books": [
+      { "title": "Thinking, Fast and Slow", "author": "Daniel Kahneman" },
+      { "title": "The Three-Body Problem", "author": "Cixin Liu" },
+      { "title": "Factfulness", "author": "Hans Rosling" },
+      { "title": "Between the World and Me", "author": "Ta-Nehisi Coates" },
+      { "title": "Becoming", "author": "Michelle Obama" },
+      { "title": "Evicted", "author": "Matthew Desmond" },
+      { "title": "Normal People", "author": "Sally Rooney" },
+      { "title": "Educated", "author": "Tara Westover" },
+      { "title": "Things Fall Apart", "author": "Chinua Achebe" },
+      { "title": "The Moment of Lift", "author": "Melinda Gates" },
+      { "title": "Song of Solomon", "author": "Toni Morrison" },
+      { "title": "Seveneves", "author": "Neal Stephenson" },
+      { "title": "Exhalation", "author": "Ted Chiang" },
+      { "title": "All the Light We Cannot See", "author": "Anthony Doerr" },
+      { "title": "Pachinko", "author": "Min Jin Lee" },
+      { "title": "Life 3.0", "author": "Max Tegmark" },
+      { "title": "The Underground Railroad", "author": "Colson Whitehead" },
+      { "title": "An American Marriage", "author": "Tayari Jones" },
+      { "title": "The Girl on the Train", "author": "Paula Hawkins" },
+      { "title": "Exit West", "author": "Mohsin Hamid" },
+      { "title": "Trick Mirror", "author": "Jia Tolentino" },
+      {
+        "title": "The Age of Surveillance Capitalism",
+        "author": "Shoshana Zuboff"
+      },
+      { "title": "Long Walk to Freedom", "author": "Nelson Mandela" },
+      { "title": "The Power", "author": "Naomi Alderman" },
+      { "title": "A Gentleman in Moscow", "author": "Amor Towles" },
+      { "title": "The Sixth Man", "author": "Andre Iguodala" },
+      { "title": "Moby-Dick", "author": "Herman Melville" },
+      { "title": "Life of Pi", "author": "Yann Martel" },
+      { "title": "Americanah", "author": "Chimamanda Ngozi Adichie" },
+      { "title": "Self Reliance", "author": "Ralph Waldo Emerson" },
+      { "title": "Lab Girl", "author": "Hope Jahren" },
+      { "title": "The Shallows", "author": "Nicholas Carr" },
+      { "title": "The Lowland", "author": "Jhumpa Lahiri" },
+      { "title": "Girl, Woman, Other", "author": "Bernardine Evaristo" },
+      { "title": "The Sixth Extinction", "author": "Elizabeth Kolbert" },
+      { "title": "H is for Hawk", "author": "Helen MacDonald" },
+      { "title": "Lost Children Archive", "author": "Valeria Luiselli" },
+      { "title": "Parting the Waters", "author": "Taylor Branch" },
+      {
+        "title": "The Rebellious Life of Mrs. Rosa Parks",
+        "author": "Jeanne Theoharis"
+      },
+      { "title": "Abraham Lincoln", "author": "John G. Nicolay" },
+      { "title": "How Democracies Die", "author": "Steven Levitsky" },
+      { "title": "The Heartbeat of Wounded Knee", "author": "David Treuer" },
+      { "title": "The World as It Is", "author": "Ben Rhodes" },
+      { "title": "Into the Fire", "author": "Dakota Meyer" },
+      { "title": "The Warmth of Other Suns", "author": "Isabel Wilkerson" },
+      { "title": "Asymmetry", "author": "Lisa Halliday" },
+      { "title": "Finding My Voice", "author": "Valerie Jarrett" },
+      { "title": "Gilead", "author": "Marilynne Robinson" },
+      { "title": "Men Without Women", "author": "Haruki Murakami" },
+      { "title": "The Nickel Boys", "author": "Colson Whitehead" },
+      { "title": "The Return", "author": "Hisham Matar" },
+      { "title": "Barbarian Days", "author": "William Finnegan" },
+      { "title": "Heartland", "author": "Sarah Smarsh" },
+      { "title": "Tough Love", "author": "Susan Rice" },
+      {
+        "title": "The Ministry for the Future",
+        "author": "Kim Stanley Robinson"
+      },
+      { "title": "Maid", "author": "Stephanie Land" },
+      { "title": "Futureface", "author": "Alex Wagner" },
+      { "title": "The New Geography of Jobs", "author": "Enrico Moretti" },
+      { "title": "Four Great Tragedies", "author": "William Shakespeare" },
+      { "title": "In the Shadow of Statues", "author": "Mitch Landrieu" },
+      { "title": "Warlight", "author": "Michael Ondaatje" },
+      { "title": "The Yellow House", "author": "Sarah M. Broom" },
+      { "title": "Washington", "author": "Ron Chernow" },
+      { "title": "We Live in Water", "author": "Jess Walter" },
+      { "title": "Five-Carat Soul", "author": "James McBride" },
+      { "title": "A House for Mr. Biswas", "author": "V.S. Naipaul" },
+      { "title": "Florida", "author": "Lauren Groff" },
+      { "title": "How to Read the Air", "author": "Dinaw Mengestu" },
+      { "title": "Washington Black", "author": "Esi Edugyan" },
+      { "title": "There There", "author": "Tommy Orange" },
+      { "title": "The Anarchy", "author": "William Dalrymple" },
+      { "title": "Lot", "author": "Bryan Washington" },
+      { "title": "Frederick Douglass", "author": "David W. Blight" },
+      { "title": "The Source of Self-Regard", "author": "Toni Morrison" },
+      {
+        "title": "A Grain of Wheat",
+        "author": "Ngugi wa Thiong'o "
+      },
+      { "title": "How to Do Nothing", "author": "Jenny Odell" },
+      { "title": "Coach Wooden and Me", "author": "Kareem Abdul-Jabbar" },
+      { "title": "Anything Is Possible", "author": "Elizabeth Strout" },
+      { "title": "Dying", "author": "Cory Taylor" },
+      { "title": "Janesville", "author": "Amy Goldstein" },
+      { "title": "Feel Free", "author": "Zadie Smith" },
+      { "title": "Truth Decay", "author": "Jennifer Kavanagh" },
+      { "title": "A Different Way to Win", "author": "Jim Rooney" },
+      { "title": "Inland", "author": "Téa Obreht" },
+      { "title": "The Broken Ladder", "author": "Keith Payne" },
+      { "title": "Grant", "author": "Ron Chernow" },
+      { "title": "Why Liberalism Failed", "author": "Patrick J. Deneen" },
+      { "title": "Immigrant, Montana", "author": "Amitava Kumar" },
+      { "title": "The Topeka School", "author": "Ben Lerner" },
+      { "title": "Sing, Unburied, Sing", "author": "Jesmyn Ward" },
+      { "title": "Say Nothing", "author": "Patrick Radden Keefe" },
+      { "title": "The Shadow of Sirius", "author": "W.S. Merwin" },
+      { "title": "American Spy", "author": "Lauren Wilkinson" },
+      { "title": "Solitary", "author": "Albert Woodfox" },
+      { "title": "The Education of an Idealist", "author": "Samantha Power" },
+      { "title": "Trust Exercise", "author": "Susan Choi" },
+      { "title": "Basketball", "author": "Shea Serrano" },
+      { "title": "American Prison", "author": "Shane Bauer" },
+      { "title": "Furious Hours", "author": "Casey Cep" },
+      { "title": "The Orphan Master's Son", "author": "Adam Johnson" }
+    ],
+    "bio": "Barack Obama is an American attorney and politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African American president of the United States.",
+    "tags": ["politics"]
+  },
+  "marc-andreessen": {
+    "books": [
+      { "title": "Thinking, Fast and Slow", "author": "Daniel Kahneman" },
+      { "title": "Zero to One", "author": "Peter Thiel" },
+      { "title": "The Hard Thing About Hard Things", "author": "Ben Horowitz" },
+      { "title": "High Output Management", "author": "Andrew Grove" },
+      { "title": "The Lean Startup", "author": "Eric Ries" },
+      { "title": "Poor Charlie's Almanack", "author": "Charlie Munger" },
+      { "title": "Skin in the Game", "author": "Nassim Nicholas Taleb" },
+      { "title": "12 Rules for Life", "author": "Jordan Peterson" },
+      { "title": "The Courage to Be Disliked", "author": "Ichiro Kishimi" },
+      { "title": "Extreme Ownership", "author": "Jocko Willink" },
+      { "title": "Can't Hurt Me", "author": "David Goggins" },
+      { "title": "The True Believer", "author": "Eric Hoffer" },
+      { "title": "Only the Paranoid Survive", "author": "Andrew Grove" },
+      { "title": "The Rational Optimist", "author": "Matt Ridley" },
+      { "title": "Play Nice But Win", "author": "Michael Dell" },
+      { "title": "Becoming Steve Jobs", "author": "Brent Schlender" },
+      { "title": "The Rise of Superman", "author": "Steven Kotler" },
+      { "title": "A Guide to the Good Life", "author": "William B. Irvine" },
+      { "title": "Born Standing Up", "author": "Steve Martin" },
+      { "title": "Behave", "author": "Robert M. Sapolsky" },
+      { "title": "Thinking in Bets", "author": "Annie Duke" },
+      { "title": "Economics in One Lesson", "author": "Henry Hazlitt" },
+      { "title": "What You Do Is Who You Are", "author": "Ben Horowitz" },
+      { "title": "Who Is Michael Ovitz?", "author": "Michael Ovitz" },
+      { "title": "Conspiracy", "author": "Ryan Holiday" },
+      {
+        "title": "The Network State: How To Start a New Country",
+        "author": "Balaji Srinivasan"
+      },
+      { "title": "But What If We're Wrong?", "author": "Chuck Klosterman" },
+      { "title": "Who We Are and How We Got Here", "author": "David Reich" },
+      { "title": "Beyond Good & Evil", "author": "Friedrich Nietzsche" },
+      { "title": "Free to Choose", "author": "Milton Friedman" },
+      { "title": "Triumph of the City", "author": "Edward Glaeser" },
+      { "title": "How to Live", "author": "Sarah Bakewell" },
+      { "title": "Walt Disney", "author": "Neal Gabler" },
+      { "title": "Whole Earth Discipline", "author": "Stewart Brand" },
+      { "title": "Expert Political Judgment", "author": "Philip E. Tetlock" },
+      { "title": "Living with a SEAL", "author": "Jesse Itzler" },
+      { "title": "Homage to Catalonia", "author": "George Orwell" },
+      { "title": "Shattered", "author": "Jonathan Allen" },
+      { "title": "More from Less", "author": "Andy McAfee" },
+      {
+        "title": "Men, Machines, and Modern Times",
+        "author": "Elting E. Morison"
+      },
+      { "title": "Lenin", "author": "Victor Sebestye" },
+      { "title": "The Strange Death of Europe", "author": "Douglas Murray" },
+      { "title": "The Vision of the Anointed", "author": "Thomas Sowell" },
+      { "title": "The Wizard of Menlo Park", "author": "Randall E. Stross" },
+      { "title": "The Mystery of Capital", "author": "Hernando de Soto" },
+      { "title": "Edison", "author": "Matthew Josephson" },
+      { "title": "Lone Survivor", "author": "Marcus Luttrell" },
+      { "title": "A Higher Loyalty", "author": "James Comey" },
+      { "title": "Hacks", "author": "Donna Brazile" },
+      { "title": "Schulz and Peanuts", "author": "David Michaelis" },
+      { "title": "Eumeswil", "author": "Ernst Junger" },
+      { "title": "Slugfest", "author": "Reed Tucker" },
+      { "title": "Days of Rage", "author": "Bryan Burrough" },
+      { "title": "The Tycoons", "author": "Charles R. Morris" },
+      { "title": "A Very Expensive Poison", "author": "Luke Harding" },
+      { "title": "When the Wolves Bite", "author": "Scott Wapner" },
+      { "title": "Private Truths, Public Lies", "author": "Timur Kuran" },
+      { "title": "Chasing Hillary", "author": "Amy Chozick" },
+      { "title": "The Power of Productivity", "author": "William W. Lewis" },
+      { "title": "Golden Gates", "author": "Conor Dougherty" },
+      { "title": "Devil's Bargain", "author": "Joshua Green" },
+      { "title": "Civilian Warriors", "author": "Erik Prince" },
+      { "title": "All Out War", "author": "Tim Shipman" },
+      { "title": "Kill Decision", "author": "Daniel Suarez" },
+      {
+        "title": "Recapturing the Spirit of Enterprise",
+        "author": "George Gilder"
+      },
+      { "title": "The Spider Network", "author": "David Enrich" },
+      { "title": "An Apology for the Builder", "author": "Nicholas Barbon" },
+      { "title": "A Spy Among Friends", "author": "Ben Macintyre" },
+      { "title": "The Myth of the Rational Voter", "author": "Bryan Caplan" },
+      {
+        "title": "In Defense of Globalization",
+        "author": "Jagdish N. Bhagwati"
+      },
+      { "title": "Capitalism and Freedom", "author": "Milton Friedman" },
+      {
+        "title": "A Conflict of Visions: Ideological Origins of Political Struggles",
+        "author": "Thomas Sowell"
+      },
+      {
+        "title": "The Managerial Revolution: What Is Happening in the World",
+        "author": "James Burnham"
+      },
+      { "title": "Intellectuals and Society", "author": "Thomas Sowell" },
+      { "title": "In Defense of Global Capitalism", "author": "Johan Norberg" },
+      {
+        "title": "The Machinery of Freedom: Guide to a Radical Capitalism",
+        "author": "David D. Friedman"
+      },
+      { "title": "The God of the Machine", "author": "Isabel Paterson" },
+      {
+        "title": "The Ancient City: A Study on the Religion, Laws, and Institutions of Greece and Rome",
+        "author": "Numa Denis Fustel De Coulanges"
+      },
+      { "title": "The Machiavellians", "author": "James Burnham" },
+      { "title": "The Spanish Civil War", "author": "Hugh Thomas" },
+      { "title": "Spain In Our Hearts", "author": "Adam Hochschild" },
+      { "title": "Mine Were Of Trouble", "author": "Peter Kemp" },
+      { "title": "Lindbergh", "author": "A. Scott Berg" },
+      {
+        "title": "The Ambassador: Joseph P. Kennedy at the Court of St. James's 1938-1940",
+        "author": "Susan Ronald"
+      },
+      { "title": "The Guarded Gate", "author": "Daniel Okrent" },
+      { "title": "The Second Coming of the KKK", "author": "Linda Gordon" },
+      { "title": "War For Eternity", "author": "Benjamin Teitelbaum" },
+      { "title": "The New Right", "author": "Michael Malice" },
+      { "title": "Hitler: Ascent: 1889-1939", "author": "Volker Ullrich" },
+      { "title": "Hitler: Downfall: 1939-1945", "author": "Volker Ullrich" },
+      { "title": "The God That Failed", "author": "Richard Crossman" },
+      {
+        "title": "The Romance of American Communism",
+        "author": "Vivian Gornick"
+      },
+      { "title": "Witness", "author": "Whittaker Chambers" },
+      { "title": "Joseph McCarthy", "author": "Arthur Herman" },
+      {
+        "title": "Radical Chic and Mau-Mauing the Flak Catchers by Tom Wolfe",
+        "author": "Tom Wolfe"
+      },
+      { "title": "Lenin On The Train", "author": "Catherine Merridale" },
+      { "title": "A New World Begins", "author": "Jeremy Popkin" },
+      { "title": "Fascism", "author": "Paul Gottfried" },
+      { "title": "Anti-Fascism", "author": "Paul Gottfried" },
+      { "title": "The Captive Mind", "author": "Czeslaw Milosz" }
+    ],
+    "bio": "Marc Andreessen is an American entrepreneur, investor, and software engineer. He is the co-author of Mosaic, the first widely used web browser; co-founder of Netscape; and co-founder and general partner of Silicon Valley venture capital firm Andreessen Horowitz.",
+    "tags": ["entrepreneur", "technology", "venture capitalist", "author"]
+  },
+  "seth-godin": {
+    "books": [
+      { "title": "The War of Art", "author": "Steven Pressfield" },
+      { "title": "Dune", "author": "Frank Herbert" },
+      { "title": "Snow Crash", "author": "Neal Stephenson" },
+      { "title": "Crossing the Chasm", "author": "Geoffrey A. Moore" },
+      { "title": "Rework", "author": "David Heinemeier Hansson" },
+      { "title": "The True Believer", "author": "Eric Hoffer" },
+      { "title": "Just Kids", "author": "Patti Smith" },
+      { "title": "Thinking in Bets", "author": "Annie Duke" },
+      { "title": "The Diamond Age", "author": "Neal Stephenson" },
+      { "title": "The Magic of Thinking Big", "author": "David J. Schwartz" },
+      { "title": "Understanding Comics", "author": "Scott Mccloud" },
+      { "title": "The Red Queen", "author": "Matt Ridley" },
+      { "title": "The Long Tail", "author": "Chris Anderson" },
+      { "title": "The Gift", "author": "Lewis Hyde" },
+      { "title": "Here Comes Everybody", "author": "Clay Shirky" },
+      { "title": "Thirst", "author": "Scott Harrison" },
+      { "title": "Reboot", "author": "Jerry Colonna" },
+      { "title": "Peak", "author": "Anders Ericsson & Robert Pool" },
+      { "title": "Debt", "author": "David Graeber" },
+      { "title": "The $100 Startup", "author": "Chris Guillebeau" },
+      { "title": "Brave New Work", "author": "Aaron Dignan" },
+      { "title": "Marketing", "author": "Bernadette Jiwa" },
+      { "title": "A Whole New Mind", "author": "Daniel Pink" },
+      { "title": "Start Finishing", "author": "Charlie Gillkey" },
+      { "title": "Pattern Recognition", "author": "William Gibson" },
+      { "title": "A Second Chance", "author": "Catherine Hoke" },
+      { "title": "How We Decide", "author": "Jonah Lehrer" },
+      { "title": "Everything is Figureoutable", "author": "Marie Forleo" },
+      {
+        "title": "The Art of Possibility",
+        "author": "Rosamund Stone & Benjamin Zander"
+      },
+      { "title": "The Pumpkin Plan", "author": "Mike Michalowicz" },
+      { "title": "Syrup", "author": "Max Barry" },
+      { "title": "Endeavor", "author": "Scott Perry" },
+      { "title": "Growth IQ", "author": "Tiffani Bova" },
+      {
+        "title": "Walk in Their Shoes",
+        "author": "Jim Ziolkowski & James S. Hirsch"
+      },
+      { "title": "B", "author": "Sarah Kay" },
+      { "title": "99% True", "author": "Paul McGowan" },
+      { "title": "The Corporate Blogging Book", "author": "Debbie Weil" },
+      {
+        "title": "Don't Bite the Hook",
+        "author": "Pema Ch\u00c3\u00b6dr\u00c3\u00b6n"
+      },
+      { "title": "Zilch", "author": "Nancy Lublin" },
+      { "title": "Makers", "author": "Cory Doctorow" },
+      { "title": "Zag", "author": "Marty Neumeier" },
+      { "title": "The Tom Peters Seminar", "author": "Tom Peters" },
+      { "title": "Creative Calling", "author": "Chase Jarvis" },
+      { "title": "100 Secrets of the Art World", "author": "Thomas Girst" },
+      { "title": "Your Marketing Sucks", "author": "Mark Stevens" },
+      { "title": "Forgetting", "author": "Lewis Hyde" },
+      { "title": "Save our Science", "author": "Ainissa Ramirez" },
+      {
+        "title": "Get What You Deserve!",
+        "author": "Jay Conrad Levinson et al."
+      },
+      { "title": "Food Lab", "author": "J. Kenji L\u00c3\u00b3pez-Alt" },
+      { "title": "Meaningful Work", "author": "Shawn Askinosie" },
+      { "title": "Six Pixels of Separation", "author": "Mitch Joel" },
+      { "title": "Stone Age Economics", "author": "Marshall Sahlins" },
+      { "title": "100 Side Hustles", "author": "Chris Guillebeau" },
+      { "title": "The Blue Sweater", "author": "Jacqueline Novogratz" },
+      { "title": "Too Big to Know", "author": "David Weinberger" },
+      { "title": "Management Mess", "author": "Scott Miller" },
+      { "title": "Little Brother", "author": "Cory Doctorow" },
+      { "title": "Secrets of Closing the Sale", "author": "Zig Ziglar" },
+      { "title": "Three New People", "author": "Brian Miller" },
+      { "title": "The Pursuit of Wow!", "author": "Tom Peters" },
+      { "title": "New Rules for the New Economy", "author": "Kevin Kelly" },
+      { "title": "Start Here Now", "author": "Susan Piver" }
+    ],
+    "bio": "Seth Godin is the author of 18 books. He's also the founder of the online workshops altMBA and The Marketing Seminar. Godin has founded several companies, including Yoyodyne and Squidoo. In 2018, he was inducted into the Marketing Hall of Fame.",
+    "tags": ["marketer", "media personality", "author", "educator"]
+  },
+  "peter-thiel": {
+    "books": [
+      { "title": "Influence", "author": "Robert B. Cialdini, PhD" },
+      { "title": "Atlas Shrugged", "author": "Ayn Rand" },
+      { "title": "The Black Swan", "author": "Nassim Nicholas Taleb" },
+      { "title": "The Lord of the Rings", "author": "J.R.R. Tolkien" },
+      {
+        "title": "The Sovereign Individual",
+        "author": "James Dale Davidson & William Rees-Mogg"
+      },
+      { "title": "The Master and Margarita", "author": "Mikhail Bulgakov" },
+      { "title": "The Founders", "author": "Jimmy Soni" },
+      { "title": "The Diamond Age", "author": "Neal Stephenson" },
+      { "title": "The Right Stuff", "author": "Tom Wolfe" },
+      {
+        "title": "Things Hidden Since the Foundation of the World",
+        "author": "Ren\u00c3\u00a9 Girard"
+      },
+      { "title": "Bloodlands", "author": "Timothy Snyder" },
+      { "title": "The Great Illusion", "author": "Norman Angell" },
+      { "title": "100 Plus", "author": "Sonia Arrison" },
+      {
+        "title": "Discourses on Livy",
+        "author": "Niccol\u00c3\u00b2 Machiavelli"
+      },
+      {
+        "title": "The American Challenge",
+        "author": "Jean-Jacques Servan-Schreiber & Arthur M. Schlesinger Jr."
+      },
+      { "title": "The New Atlantis", "author": "Francis Bacon" },
+      {
+        "title": "The Fifteen Decisive Battles of the World",
+        "author": "Edward Shepherd Creasy"
+      },
+      {
+        "title": "Resurrection from the Underground",
+        "author": "Ren\u00c3\u00a9 Girard"
+      },
+      { "title": "The Reasonableness of Christianity", "author": "John Locke" }
+    ],
+    "bio": "Peter Thiel is an American entrepreneur and venture capitalist. He is a co-founder of PayPal, Palantir Technologies and Founders Fund. He was ranked No. 328 on the Forbes 400 in 2018, with a net worth of $2.5 billion.",
+    "tags": ["entrepreneur", "technology", "venture capitalist", "author"]
+  },
+  "charlie-munger": {
+    "books": [
+      { "title": "Influence", "author": "Robert B. Cialdini, PhD" },
+      { "title": "Outliers", "author": "Malcolm Gladwell" },
+      { "title": "The Selfish Gene", "author": "Richard Dawkins" },
+      { "title": "Guns, Germs, and Steel", "author": "Jared Diamond" },
+      { "title": "Seeking Wisdom", "author": "Peter Bevelin" },
+      {
+        "title": "The Autobiography of Benjamin Franklin",
+        "author": "Benjamin Franklin"
+      },
+      { "title": "Titan", "author": "Ron Chernow" },
+      { "title": "Only the Paranoid Survive", "author": "Andrew Grove" },
+      { "title": "The Outsiders", "author": "William N. Thorndike" },
+      { "title": "Getting to Yes", "author": "Roger Fisher" },
+      {
+        "title": "The Little Book of Common Sense Investing",
+        "author": "John C. Bogle"
+      },
+      { "title": "In The Plex", "author": "Steven Levy" },
+      { "title": "Genome", "author": "Matt Ridley" },
+      { "title": "Hard Drive", "author": "James Wallace" },
+      {
+        "title": "Judgment in Managerial Decision Making",
+        "author": "Max H. Bazerman"
+      },
+      {
+        "title": "The Wealth and Poverty of Nations",
+        "author": "David S. Landes"
+      },
+      { "title": "Living within Limits", "author": "Garrett Hardin" },
+      {
+        "title": "Yes!",
+        "author": "Noah J. Goldstein, Robert B. Cialdini & Steve J. Martin"
+      },
+      { "title": "Ice Age", "author": "John Gribbin" },
+      { "title": "Models of My Life", "author": "Herbert A. Simon" },
+      { "title": "A Universe from Nothing", "author": "Lawrence M. Krauss" },
+      {
+        "title": "The Warren Buffett Portfolio",
+        "author": "Robert G. Hagstrom"
+      },
+      { "title": "A Matter of Degrees", "author": "Gino Segr\u00c3\u00a8" },
+      { "title": "Three Scientists and Their Gods", "author": "Robert Wright" },
+      { "title": "Deep Simplicity", "author": "John Gribbin" },
+      { "title": "Master of the Game", "author": "Connie Bruck" },
+      {
+        "title": "How the Scots Invented the Modern World",
+        "author": "Arthur Herman"
+      },
+      { "title": "Fiasco", "author": "Frank Partnoy" },
+      { "title": "Benjamin Franklin", "author": "Carl Van Doren" },
+      { "title": "The Greatest Trade Ever", "author": "Gregory Zuckerman" },
+      { "title": "The Third Chimpanzee", "author": "Jared Diamond" },
+      { "title": "Andrew Carnegie", "author": "Joseph Frazier Wall" }
+    ],
+    "bio": "Charlie Munger is an American investor, businessman, former real estate attorney, and philanthropist. He is vice chairman of Berkshire Hathaway, the conglomerate controlled by Warren Buffett.",
+    "tags": ["entrepreneur", "investor"]
+  },
+  "susan-wojcicki": {
+    "books": [
+      { "title": "Measure What Matters", "author": "John Doerr" },
+      { "title": "Trillion Dollar Coach", "author": "Eric Schmidt" },
+      { "title": "How to Raise Successful People", "author": "Esther Wojcicki" }
+    ],
+    "bio": "Susan Diane Wojcicki is an American technology executive. She has been the CEO of YouTube since February 2014. Wojcicki was involved in the founding of Google, and became Google's first marketing manager in 1999.",
+    "tags": ["entrepreneur", "technology"]
+  },
+  "john-doerr": {
+    "books": [
+      { "title": "High Output Management", "author": "Andrew Grove" },
+      {
+        "title": "How To Win Friends and Influence People",
+        "author": "Dale Carnegie"
+      },
+      { "title": "Good to Great", "author": "Jim Collins" },
+      { "title": "Steve Jobs", "author": "Walter Isaacson" },
+      { "title": "The Martian", "author": "Andy Weir" },
+      { "title": "The World Is Flat", "author": "Thomas L. Friedman" },
+      { "title": "Work Rules!", "author": "Laszlo Bock" },
+      { "title": "The Defining Decade", "author": "Meg Jay" },
+      {
+        "title": "A Comprehensive Introduction to Differential Geometry",
+        "author": "Michael Spivak"
+      },
+      {
+        "title": "Reinventing American Health Care",
+        "author": "Ezekiel J. Emanuel"
+      },
+      { "title": "Cool Tools", "author": "Kevin Kelly" },
+      { "title": "The Future", "author": "Al Gore" },
+      { "title": "Game Change", "author": "John Heilemann & Mark Halperin" }
+    ],
+    "bio": "L. John Doerr is an American author, investor and venture capitalist at Kleiner Perkins in Menlo Park, California.",
+    "tags": ["technology", "venture capitalist", "author"]
+  },
+  "morgan-housel": {
+    "books": [
+      { "title": "Shoe Dog", "author": "Phil Knight" },
+      { "title": "The Ride of a Lifetime", "author": "Robert Iger" },
+      { "title": "Bird by Bird", "author": "Anne Lamott" },
+      { "title": "Endurance", "author": "Alfred Lansing" },
+      { "title": "Tribe", "author": "Sebastian Junger" },
+      {
+        "title": "Billion Dollar Whale",
+        "author": "Tom Wright & Bradley Hope"
+      },
+      { "title": "Super Pumped", "author": "Mike Isaac" },
+      { "title": "The Hidden Life of Trees", "author": "Peter Wohlleben" },
+      { "title": "Charlie Munger", "author": "Tren Griffin" },
+      { "title": "Abundance", "author": "Peter Diamandis" },
+      { "title": "The Moral Animal", "author": "Robert Wright" },
+      { "title": "These Truths", "author": "Jill Lepore" },
+      { "title": "Empty Mansions", "author": "Bill Dedman" },
+      { "title": "Rocket Men", "author": "Robert Kurson" },
+      { "title": "The End is Always Near", "author": "Dan Carlin" }
+    ],
+    "bio": "Morgan Housel is a partner at Collaborative Fund and a former columnist at The Motley Fool and The Wall Street Journal.",
+    "tags": ["author"]
+  },
+  "warren-buffett": {
+    "books": [
+      { "title": "Influence", "author": "Robert B. Cialdini, PhD" },
+      { "title": "Shoe Dog", "author": "Phil Knight" },
+      {
+        "title": "How To Win Friends and Influence People",
+        "author": "Dale Carnegie"
+      },
+      { "title": "Poor Charlie's Almanack", "author": "Charlie Munger" },
+      { "title": "The Intelligent Investor", "author": "Benjamin Graham" },
+      { "title": "Seeking Wisdom", "author": "Peter Bevelin" },
+      { "title": "The Outsiders", "author": "William N. Thorndike" },
+      {
+        "title": "A Short History of Nearly Everything",
+        "author": "Bill Bryson"
+      },
+      { "title": "The Moment of Lift", "author": "Melinda Gates" },
+      {
+        "title": "Security Analysis",
+        "author": "Benjamin Graham & David L. Dodd"
+      },
+      {
+        "title": "Where Are the Customers' Yachts?",
+        "author": "Fred Schwed Jr."
+      },
+      {
+        "title": "Common Stocks and Uncommon Profits",
+        "author": "Philip A. Fisher"
+      },
+      {
+        "title": "The Most Important Thing Illuminated",
+        "author": "Howard Marks"
+      },
+      { "title": "Charlie Munger", "author": "Tren Griffin" },
+      { "title": "Tools and Weapons", "author": "Brad Smith" },
+      {
+        "title": "The Little Book of Common Sense Investing",
+        "author": "John C. Bogle"
+      },
+      { "title": "Common Sense on Mutual Funds", "author": "John C. Bogle" },
+      { "title": "Personal History", "author": "Katharine Graham" },
+      { "title": "Business Adventures", "author": "John Brooks" },
+      { "title": "Stress Test", "author": "Timothy F. Geithner" },
+      {
+        "title": "The Essays of Warren Buffett",
+        "author": "Warren Buffett & Lawrence A. Cunningham"
+      },
+      { "title": "Keeping At It", "author": "Paul A Volcker" },
+      { "title": "Jack", "author": "Jack Welch" },
+      { "title": "Life Is What You Make It", "author": "Peter Buffett" },
+      { "title": "The Most Important Thing", "author": "Howard Marks" },
+      {
+        "title": "The General Theory of Employment, Interest, and Money",
+        "author": "John Maynard Keynes"
+      },
+      { "title": "Bull!", "author": "Maggie Mahar" },
+      { "title": "The Clash of the Cultures", "author": "John C. Bogle" },
+      { "title": "The Man Behind the Microchip", "author": "Leslie Berlin" },
+      { "title": "Investing Between the Lines", "author": "L.J. Rittenhouse" },
+      { "title": "Limping on Water", "author": "Phil Beuth" },
+      { "title": "Essays in Persuasion", "author": "John Maynard Keynes" },
+      {
+        "title": "In an Uncertain World",
+        "author": "Robert E. Rubin & Jacob Weisberg"
+      },
+      { "title": "40 Chances", "author": "Howard G. Buffett" },
+      {
+        "title": "The Ten Commandments for Business Failure",
+        "author": "Donald R. Keough"
+      },
+      { "title": "The Wealth Choice", "author": "Dennis Kimbro" },
+      { "title": "Firefighting", "author": "Ben S. Bernanke et al." },
+      { "title": "The One Week Budget", "author": "Tiffany Aliche" },
+      {
+        "title": "The Ultimate Quotable Einstein",
+        "author": "Albert Einstein"
+      },
+      {
+        "title": "Paths to Wealth Through Common Stocks",
+        "author": "Philip A. Fisher"
+      },
+      { "title": "The Making of The President", "author": "Theodore White" },
+      {
+        "title": "The Theory of Investment Value",
+        "author": "John Burr Williams"
+      },
+      { "title": "The Farmer from Merna", "author": "Karl Schriftgiesser" },
+      { "title": "Nuclear Terrorism", "author": "Graham Allison" },
+      {
+        "title": "The Smartest Guys in the Room",
+        "author": "Bethany McLean & Peter Elkind"
+      },
+      { "title": "The Science of Hitting", "author": "Ted Williams" },
+      { "title": "A Piece of the Action", "author": "Joe Nocera" },
+      { "title": "Supermoney", "author": "Adam Smith" },
+      { "title": "First A Dream", "author": "Jim Clayton" },
+      { "title": "Dream Big", "author": "Cristiane Correa" },
+      {
+        "title": "Take on the Street",
+        "author": "Arthur Levitt & Paula Dwyer"
+      },
+      { "title": "Secrets of Successful Sales", "author": "Alison Edgar" },
+      { "title": "Warren Buffett's Ground Rules", "author": "Jeremy C. Miller" }
+    ],
+    "bio": "Warren Edward Buffett is an American business magnate, investor, and philanthropist, who is the chairman and CEO of Berkshire Hathaway. He is considered one of the most successful investors in the world and has a net worth of US$88.9 billion as of December 2019, making him the fourth-wealthiest person in the world.",
+    "tags": ["entrepreneur", "investor", "author"]
+  },
+  "tim-ferriss": {
+    "books": [
+      { "title": "Principles", "author": "Ray Dalio" },
+      { "title": "Atlas Shrugged", "author": "Ayn Rand" },
+      { "title": "The Alchemist", "author": "Paulo Coelho" },
+      { "title": "Atomic Habits", "author": "James Clear" },
+      { "title": "Antifragile", "author": "Nassim Nicholas Taleb" },
+      { "title": "Dune", "author": "Frank Herbert" },
+      {
+        "title": "\"Surely You're Joking, Mr. Feynman!\"",
+        "author": "Richard P. Feynman"
+      },
+      { "title": "Poor Charlie's Almanack", "author": "Charlie Munger" },
+      { "title": "Snow Crash", "author": "Neal Stephenson" },
+      { "title": "Essentialism", "author": "Greg McKeown" },
+      { "title": "Tao Te Ching", "author": "Lao Tzu" },
+      { "title": "How to Change Your Mind", "author": "Michael Pollan" },
+      { "title": "Loonshots", "author": "Safi Bahcall" },
+      { "title": "The Lessons of History", "author": "Will & Ariel Durant" },
+      { "title": "The Ride of a Lifetime", "author": "Robert Iger" },
+      { "title": "The Checklist Manifesto", "author": "Atul Gawande" },
+      { "title": "Deep Work", "author": "Cal Newport" },
+      { "title": "Creativity, Inc.", "author": "Ed Catmull" },
+      { "title": "The Effective Executive", "author": "Peter F. Drucker" },
+      { "title": "Extreme Ownership", "author": "Jocko Willink" },
+      { "title": "Bird by Bird", "author": "Anne Lamott" },
+      { "title": "The Almanack of Naval Ravikant", "author": "Eric Jorgenson" },
+      { "title": "The Obstacle Is the Way", "author": "Ryan Holiday" },
+      { "title": "Ender's Game", "author": "Orson Scott Card" },
+      { "title": "Stumbling on Happiness", "author": "Daniel Todd Gilbert" },
+      { "title": "Benjamin Franklin", "author": "Walter Isaacson" },
+      { "title": "The E-Myth Revisited", "author": "Michael E. Gerber" },
+      { "title": "Rework", "author": "David Heinemeier Hansson" },
+      { "title": "Moonwalking with Einstein", "author": "Joshua Foer" },
+      { "title": "The Book of Five Rings", "author": "Miyamoto Musashi" },
+      { "title": "A Guide to the Good Life", "author": "William B. Irvine" },
+      { "title": "Mastery", "author": "George Leonard" },
+      { "title": "Open", "author": "Andre Agassi" },
+      { "title": "Tribe", "author": "Sebastian Junger" },
+      { "title": "10% Happier", "author": "Dan Harris" },
+      { "title": "Delivering Happiness", "author": "Tony Hsieh" },
+      {
+        "title": "Genghis Khan and the Making of the Modern World",
+        "author": "Jack Weatherford"
+      },
+      { "title": "Getting to Yes", "author": "Roger Fisher" },
+      { "title": "Lying", "author": "Sam Harris" },
+      { "title": "Letters from a Stoic", "author": "Lucius Annaeus Seneca" },
+      { "title": "Stories of Your Life and Others", "author": "Ted Chiang" },
+      { "title": "On Writing Well", "author": "William Zinsser" },
+      { "title": "Grit", "author": "Angela Duckworth" },
+      { "title": "The Magic of Thinking Big", "author": "David J. Schwartz" },
+      { "title": "The Artist's Way", "author": "Julia Cameron" },
+      { "title": "Anything You Want", "author": "Derek Sivers" },
+      { "title": "A Thousand Splendid Suns", "author": "Khaled Hosseini" },
+      { "title": "Wild", "author": "Cheryl Strayed" },
+      { "title": "Blue Ocean Strategy", "author": "W. Chan Kim" },
+      { "title": "The Gift of Fear", "author": "Gavin De Becker" },
+      { "title": "The Origin of Species", "author": "Charles Darwin" },
+      { "title": "Abundance", "author": "Peter Diamandis" },
+      { "title": "The 22 Immutable Laws of Marketing", "author": "Al Ries" },
+      { "title": "About Face", "author": "David H. Hackworth" },
+      { "title": "The 80/20 Principle", "author": "Richard Koch" },
+      { "title": "As A Man Thinketh", "author": "James Allen" },
+      {
+        "title": "How to Get Filthy Rich in Rising Asia",
+        "author": "Mohsin Hamid"
+      },
+      { "title": "Radical Acceptance", "author": "Tara Brach" },
+      { "title": "Levels of the Game", "author": "John McPhee" },
+      { "title": "Awareness", "author": "Anthony de Mello" },
+      { "title": "Words That Work", "author": "Frank Luntz" },
+      { "title": "Poor Richard's Almanack", "author": "Benjamin Franklin" },
+      { "title": "The Healing Journey", "author": "Claudio Naranjo" },
+      { "title": "Emergency", "author": "Neil Strauss" },
+      {
+        "title": "You Can Be a Stock Market Genius",
+        "author": "Joel Greenblatt"
+      },
+      { "title": "Liar's Poker", "author": "Michael Lewis" },
+      { "title": "We Learn Nothing", "author": "Tim Kreider" },
+      { "title": "Draft No. 4", "author": "John McPhee" },
+      { "title": "Don't Shoot the Dog!", "author": "Karen Pryor" },
+      { "title": "Bad Pharma", "author": "Ben Goldacre" },
+      { "title": "Unlimited Power", "author": "Tony Robbins" },
+      {
+        "title": "How to Stop Worrying and Start Living",
+        "author": "Dale Carnegie"
+      },
+      { "title": "Play It Away", "author": "Charlie Hoehn" },
+      { "title": "Bad Science", "author": "Ben Goldacre" },
+      { "title": "The Graveyard Book", "author": "Neil Gaiman" },
+      { "title": "Neuromancer", "author": "William Gibson" },
+      {
+        "title": "Adventures in the Screen Trade",
+        "author": "William Goldman"
+      },
+      {
+        "title": "On Grief and Grieving",
+        "author": "Elisabeth K\u00c3\u00bcbler-Ross & David Kessler"
+      },
+      { "title": "Vagabonding", "author": "Rolf Potts" },
+      { "title": "Night Sky with Exit Wounds", "author": "Ocean Vuong" },
+      { "title": "Zorba the Greek", "author": "Nikos Kazantzakis" },
+      { "title": "Death of a Salesman", "author": "Arthur Miller" },
+      { "title": "Age of Propaganda", "author": "Anthony R. Pratkanis" },
+      { "title": "Au Contraire!", "author": "Gilles Asselin" },
+      { "title": "Healing Back Pain", "author": "John E. Sarno" },
+      { "title": "Recession Proof Graduate", "author": "Charlie Hoehn" },
+      { "title": "Lateral Thinking", "author": "Edward de Bono" },
+      { "title": "The Mind of a Mnemonist", "author": "Aleksandr R. Luria" },
+      { "title": "Becoming a Category of One", "author": "Joe Calloway" },
+      { "title": "The Loom of Language", "author": "Frederick Bodmer" },
+      { "title": "Musicophilia", "author": "Oliver Sacks" },
+      {
+        "title": "COAN The Man, The Myth, The Method",
+        "author": "Marty Gallagher"
+      },
+      { "title": "Devotions", "author": "Mary Oliver" },
+      {
+        "title": "In Praise of Shadows",
+        "author": "Jun'ichir\u00c5\u008d Tanizaki"
+      },
+      { "title": "Secrets of Power Negotiating", "author": "Roger Dawson" },
+      { "title": "Gratitude", "author": "Oliver Sacks" },
+      { "title": "The Neverending Story", "author": "Michael Ende" },
+      { "title": "Cryptonomicon", "author": "Neal Stephenson" },
+      { "title": "A Geek in Japan", "author": "Hector Garcia Puigcerver" },
+      { "title": "Happy Money", "author": "Elizabeth Dunn & Michael Norton" }
+    ],
+    "bio": "Tim Ferriss has been listed as one of Fast Company\u00e2\u0080\u0099s \u00e2\u0080\u009cMost Innovative Business People\u00e2\u0080\u009d and one of Fortune\u00e2\u0080\u0099s \u00e2\u0080\u009c40 under 40.\u00e2\u0080\u009d He is an early-stage technology investor/advisor and the author of five #1 New York Times and Wall Street Journal bestsellers. The Tim Ferriss Show podcast has now exceeded 400 million downloads.",
+    "tags": ["media personality", "technology", "venture capitalist", "author"]
+  }
+}

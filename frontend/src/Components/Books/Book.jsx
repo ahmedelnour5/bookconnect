@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import AddToList from './AddToList';
+import { UserContext } from '../../Context/UserContext';
 
 const BookCover = ({ coverImg }) => {
   return (
@@ -19,10 +20,13 @@ const BookDetails = ({ title, author }) => {
 };
 
 const Book = ({ book }) => {
+  const { user } = useContext(UserContext);
+
   return (
     <div className="book">
       <BookCover coverImg={book.coverImage} />
       <BookDetails title={book.title} author={book.author.name} />
+
       <AddToList coverImg={book.coverImage} book={book._id} />
     </div>
   );

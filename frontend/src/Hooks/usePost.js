@@ -5,7 +5,7 @@ import { UserContext } from '../Context/UserContext';
 const usePost = (userData, API_URL) => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
-  const [pending, setPending] = useState(false);
+  const [pending, setPending] = useState(true);
   const user = useContext(UserContext);
 
   const config = {
@@ -16,11 +16,14 @@ const usePost = (userData, API_URL) => {
 
   useEffect(() => {
     const post = async () => {
-      setPending(true);
       try {
-        const response = await axios.post(API_URL, userData, config);
-        setData(response.data);
-        setPending(false);
+        const response = await axios
+          .post(API_URL, userData, config)
+          .then((res) => {
+            console.log(res.data);
+            setPending(false);
+            setData(res.data);
+          });
       } catch (error) {
         setError(error);
         setPending(false);

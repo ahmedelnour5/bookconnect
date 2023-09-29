@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to="/people">People</Link>
         <Link to="/lists">Lists</Link>
       </ul>
-      {user && user !== 'null' ? (
+      {user && Object.keys(user).length > 0 ? (
         <ProfileMenu name={user.name} />
       ) : (
         <AuthBtns />

@@ -5,9 +5,7 @@ import Paper from '@mui/material/Paper';
 import { useNavigate } from 'react-router-dom';
 import '../Styles/Dashboard.css';
 
-const UserLists = () => {
-  const { lists, message } = useLists();
-
+const UserLists = ({ lists }) => {
   const BrosweMessage = () => {
     const paperStyles = {
       gap: 2,
